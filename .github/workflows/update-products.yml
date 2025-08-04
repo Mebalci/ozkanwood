@@ -31,6 +31,12 @@ jobs:
     - name: Ürün verisini çek
       run: python scripts/urun_tarayici.py
 
+    - name: Git durumunu ve farkı yazdır
+      run: |
+        git status
+        git diff --stat
+
+
     - name: Değişiklikleri kaydet ve push et
       run: |
         git config --global user.email "github-actions@github.com"
