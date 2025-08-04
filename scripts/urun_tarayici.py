@@ -68,6 +68,11 @@ def main():
     with open("public/urunler.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
+    with open("public/urunler.json", "w") as f:
+    import datetime
+    f.write(f'{{"last_updated": "{datetime.datetime.now()}"}}')
+
+
     print(f"{len(urunler)} ürün public/urunler.json dosyasına yazıldı.")
 
 if __name__ == "__main__":
