@@ -5,6 +5,11 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
+env:
+  TRENDYOL_API_KEY: ${{ secrets.TRENDYOL_API_KEY }}
+  TRENDYOL_API_SECRET: ${{ secrets.TRENDYOL_API_SECRET }}
+  TRENDYOL_SUPPLIER_ID: ${{ secrets.TRENDYOL_SUPPLIER_ID }}
+
 jobs:
   build:
     runs-on: ubuntu-22.04
