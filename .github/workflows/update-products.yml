@@ -1,36 +1,26 @@
-name: Trendyol Ürünleri Güncelle
+name: Ürünleri Güncelle
 
 on:
-  schedule:
-    - cron: "0 * * * *"  # Her saat başı çalışır
-  workflow_dispatch:      # Elle tetikleme de yapılabilir
+  push:
+    branches:
+      - master
+  workflow_dispatch:
 
 jobs:
-  update-products:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Kodu klonla
-        uses: actions/checkout@v3
-
-      - name: Python kurulumu
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-
-      - name: Gereken Python paketlerini kur
-        run: pip install requests
-
-      - name: Trendyol verisini çek ve JSON dosyasına yaz
-        env:
-          TRENDYOL_API_KEY: ${{ secrets.TRENDYOL_API_KEY }}
-          TRENDYOL_API_SECRET: ${{ secrets.TRENDYOL_API_SECRET }}
-          TRENDYOL_SUPPLIER_ID: ${{ secrets.TRENDYOL_SUPPLIER_ID }}
+          python-version: 3.10
+      - run: pip install requests
+      - name: Ürün verisini çek
         run: python scripts/urun_tarayici.py
-
-      - name: Güncellenen dosyayı commitle ve pushla
+      - name: Değişiklikleri kaydet
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add public/urunler.json
-          git commit -m "📦 Otomatik ürün listesi güncellendi" || echo "No changes to commit"
+          git commit -m "🔁 JSON güncellendi" || echo "No changes to commit"
           git push
