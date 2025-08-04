@@ -30,9 +30,11 @@ jobs:
       run: |
         git config --global user.email "github-actions@github.com"
         git config --global user.name "github-actions"
-        git pull origin master --rebase
+        
         git add .
         git commit -m "JSON güncellendi" || echo "No changes to commit"
+        
+        git pull origin master --rebase || echo "No remote changes to pull"
         git push origin master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
