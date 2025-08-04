@@ -67,11 +67,7 @@ def main():
     os.makedirs("public", exist_ok=True)
     with open("public/urunler.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-
-    with open("public/urunler.json", "w") as f:
-    import datetime
-    f.write(f'{{"last_updated": "{datetime.datetime.now()}"}}')
-
+ 
 
     print(f"{len(urunler)} ürün public/urunler.json dosyasına yazıldı.")
 
