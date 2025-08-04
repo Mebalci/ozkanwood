@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Kodu al
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Python kurulumu
       uses: actions/setup-python@v4
@@ -31,3 +33,5 @@ jobs:
         git add public/urunler.json
         git commit -m "🔁 JSON güncellendi" || echo "No changes to commit"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
