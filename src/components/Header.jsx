@@ -1,3 +1,4 @@
+// src/components/Header.jsx
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
@@ -78,7 +79,7 @@ export default function Header() {
               />
             </Link>
 
-            {/* MENÜ (collapse) - SAĞA İTİLECEK */}
+            {/* MENÜ (collapse) - ORTAYA HİZALANIR */}
             <div className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
               <ul className="navbar-nav" role="menubar">
                 {navLinks.map(({ path, label }) => (
@@ -97,7 +98,7 @@ export default function Header() {
               </ul>
             </div>
 
-            {/* SAĞ RAY: (MOBİLDE) HAMBURGER + SEPET | (DESKTOPTA) SADECE SEPET */}
+            {/* SAĞ RAY: (MOBİL) HAMBURGER SAĞDA + SEPET ORTADA (ABSOLUTE) | (DESKTOP) SADECE SEPET SAĞDA */}
             <div className="right-rail">
               <button
                 className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
