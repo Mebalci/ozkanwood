@@ -61,8 +61,7 @@ export default function Header() {
 
       <header className={`navbar-premium ${isScrolled ? 'scrolled' : ''}`} role="banner">
         <nav className="navbar navbar-expand-lg" role="navigation" aria-label="Ana navigasyon">
-          <div className="container-fluid px-3 px-lg-4">
-            {/* LOGO - SOL */}
+          <div className="container-fluid px-3 px-lg-4">            
             <Link
               to="/"
               className="navbar-brand logo-container"
@@ -78,8 +77,7 @@ export default function Header() {
                 height="60"
               />
             </Link>
-
-            {/* MENÜ (collapse) - ORTAYA HİZALANIR */}
+           
             <div className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
               <ul className="navbar-nav" role="menubar">
                 {navLinks.map(({ path, label }) => (
@@ -97,8 +95,7 @@ export default function Header() {
                 ))}
               </ul>
             </div>
-
-            {/* SAĞ RAY: (MOBİL) HAMBURGER SAĞDA + SEPET ORTADA (ABSOLUTE) | (DESKTOP) SADECE SEPET SAĞDA */}
+            
             <div className="right-rail">
               <button
                 className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
