@@ -119,12 +119,9 @@ export default function ProductCard({ urun }) {
         </div>
 
         <div className="card-actions" onClick={(e)=>e.stopPropagation()}>
-          <button className="btn add-to-cart" onClick={() => addToCart(urun, 1)}>
+          <button className="whatsapp-btn" onClick={() => addToCart(urun, 1)}>
             Sepete Ekle
-          </button>
-          <button className="whatsapp-btn" onClick={handleWhatsAppClick}>
-            Sipariş Ver
-          </button>
+          </button>          
         </div>
       </div>
     </div>
