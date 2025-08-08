@@ -28,7 +28,7 @@ export default function CartPage() {
       <div className="cart-page container">
         <h2>Sepet</h2>
         <p>Sepetiniz boş.</p>
-        <Link to="/urunler" className="btn btn-primary">Alışverişe Başla</Link>
+        <Link to="/urunler" className="whatsapp-btn">Alışverişe Başla</Link>
       </div>
     );
   }
@@ -62,7 +62,7 @@ export default function CartPage() {
               </div>
               <div className="row-right">
                 <div className="row-total">{formatPrice(it.discounted * it.qty)} ₺</div>
-                <button className="remove-btn" onClick={() => removeFromCart(it.id)}>Kaldır</button>
+                <button className="whatsapp-btn" onClick={() => removeFromCart(it.id)}>Kaldır</button>
               </div>
             </div>
           </div>
@@ -75,11 +75,12 @@ export default function CartPage() {
           <strong>{formatPrice(total)} ₺</strong>
         </div>
         <div className="sum-actions">
-          <button className="btn btn-outline-danger" onClick={clearCart}>Sepeti Temizle</button>
-          <button className="btn btn-success" onClick={sendWhatsAppOrder}>WhatsApp’tan Sipariş Gönder</button>
+          <button className="whatsapp-btn" onClick={clearCart}>Sepeti Temizle</button>
+          <button className="whatsapp-btn" onClick={sendWhatsAppOrder}>WhatsApp’tan Sipariş Gönder</button>
         </div>
         <p className="muted">Sipariş mesajınız WhatsApp’ta otomatik hazırlanır; gönderip onaylayın. 🎯</p>
       </div>
     </div>
   );
 }
+
