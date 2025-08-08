@@ -79,7 +79,7 @@ export default function Header() {
             </Link>
            
             <div className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
-              <ul className="navbar-nav" role="menubar">
+              <ul className="navbar-nav ms-auto" role="menubar">
                 {navLinks.map(({ path, label }) => (
                   <li className="nav-item" key={path} role="none">
                     <Link
