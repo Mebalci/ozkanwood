@@ -1,9 +1,14 @@
 name: Ürünleri Güncelle
 
 on:
+  schedule:
+    - cron: "0 3 * * *"   # Her gün 06:00 (TRT, UTC+3) == 03:00 UTC
   push:
     branches: [ master ]
   workflow_dispatch:
+
+permissions:
+  contents: write   # GITHUB_TOKEN'a repo yazma izni
 
 env:
   TRENDYOL_API_KEY: ${{ secrets.TRENDYOL_API_KEY }}
@@ -18,7 +23,7 @@ jobs:
     - name: Kodu al
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: false
 
     - name: Python kurulumu
       uses: actions/setup-python@v4
@@ -31,20 +36,27 @@ jobs:
     - name: Ürün verisini çek
       run: python scripts/urun_tarayici.py
 
-    - name: Git durumunu ve farkı yazdır
+    - name: Değişiklik var mı?
+      id: diff
       run: |
-        git status
-        git diff --stat
+        if git diff --quiet public/urunler.json; then
+          echo "changed=no" >> $GITHUB_OUTPUT
+        else
+          echo "changed=yes" >> $GITHUB_OUTPUT
+        fi
 
+    - name: Remote ile senkronize ol
+      run: |
+        git fetch origin
+        git pull origin master --rebase || true
 
     - name: Değişiklikleri kaydet ve push et
+      if: steps.diff.outputs.changed == 'yes'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.email "github-actions@github.com"
         git config --global user.name "github-actions"
-
-        git pull origin master --rebase || echo "No remote changes to pull"
-
         git add public/urunler.json
-        git commit -m "🔁 JSON güncellendi" && git push origin master || echo "No changes to commit"
-        git push origin master
-
+        git commit -m "🔁 JSON güncellendi ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:master
