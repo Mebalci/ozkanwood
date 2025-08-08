@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
@@ -51,51 +50,35 @@ export default function Header() {
   return (
     <>
       {isMenuOpen && (
-        <div className="mobile-backdrop" onClick={() => setIsMenuOpen(false)} onKeyDown={handleKeyDown} tabIndex={-1} />
+        <div
+          className="mobile-backdrop"
+          onClick={() => setIsMenuOpen(false)}
+          onKeyDown={handleKeyDown}
+          tabIndex={-1}
+        />
       )}
 
       <header className={`navbar-premium ${isScrolled ? 'scrolled' : ''}`} role="banner">
         <nav className="navbar navbar-expand-lg" role="navigation" aria-label="Ana navigasyon">
           <div className="container-fluid px-3 px-lg-4">
+            {/* LOGO - SOL */}
             <Link
               to="/"
               className="navbar-brand logo-container"
               onClick={handleLinkClick}
               aria-label="Özkan Wood Ana Sayfa"
             >
-              <img src={logo} alt="Özkan Wood Logo" className="logo-img" loading="eager" width="120" height="60" />
+              <img
+                src={logo}
+                alt="Özkan Wood Logo"
+                className="logo-img"
+                loading="eager"
+                width="120"
+                height="60"
+              />
             </Link>
 
-            {/* Hamburger */}
-            <button
-              className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
-              type="button"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              onKeyDown={handleKeyDown}
-              aria-controls="navbarNav"
-              aria-expanded={isMenuOpen}
-              aria-label={isMenuOpen ? 'Menüyü kapat' : 'Menüyü aç'}
-            >
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
-            </button>
-            
-            <div className="header-actions">
-              <Link
-                to="/sepet"
-                className="nav-link cart-link"
-                onClick={handleLinkClick}
-                role="button"
-                aria-label={`Sepet (${count})`}
-              >
-                <span className="cart-icon" aria-hidden="true">🛒</span>
-                <span>Sepet</span>
-                <span className="cart-badge" aria-live="polite">{count}</span>
-              </Link>
-            </div>
-
-            {/* Menü linkleri (collapse İÇİNDE) */}
+            {/* MENÜ (collapse) - SAĞA İTİLECEK */}
             <div className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
               <ul className="navbar-nav" role="menubar">
                 {navLinks.map(({ path, label }) => (
@@ -112,6 +95,35 @@ export default function Header() {
                   </li>
                 ))}
               </ul>
+            </div>
+
+            {/* SAĞ RAY: (MOBİLDE) HAMBURGER + SEPET | (DESKTOPTA) SADECE SEPET */}
+            <div className="right-rail">
+              <button
+                className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
+                type="button"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                onKeyDown={handleKeyDown}
+                aria-controls="navbarNav"
+                aria-expanded={isMenuOpen}
+                aria-label={isMenuOpen ? 'Menüyü kapat' : 'Menüyü aç'}
+              >
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+              </button>
+
+              <Link
+                to="/sepet"
+                className="nav-link cart-link"
+                onClick={handleLinkClick}
+                role="button"
+                aria-label={`Sepet (${count})`}
+              >
+                <span className="cart-icon" aria-hidden="true">🛒</span>
+                <span>Sepet</span>
+                <span className="cart-badge" aria-live="polite">{count}</span>
+              </Link>
             </div>
           </div>
         </nav>
