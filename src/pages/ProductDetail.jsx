@@ -151,12 +151,9 @@ export default function ProductDetail() {
             )}
 
             <div className="detail-actions">
-              <button className="btn add-to-cart" onClick={() => addToCart(urun, 1)}>
+              <button className="whatsapp-btn" onClick={() => addToCart(urun, 1)}>
                 Sepete Ekle
-              </button>
-              <button className="whatsapp-btn" onClick={handleWhatsAppClick}>
-                WhatsApp ile Sipariş Ver
-              </button>
+              </button>              
             </div>
           </div>
         </div>
