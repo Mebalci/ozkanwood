@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { useCart } from '../context/CartContext'; // ✅ eklendi
 import logo from '../assets/LOGO.png';
 import './Header.css';
 
@@ -8,13 +9,14 @@ export default function Header() {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { count } = useCart(); // ✅ sepet adedi
 
   const isActive = (path) => location.pathname === path;
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     const throttledScrollHandler = throttle(handleScroll, 16);
-    
+
     window.addEventListener('scroll', throttledScrollHandler, { passive: true });
     return () => window.removeEventListener('scroll', throttledScrollHandler);
   }, []);
@@ -25,22 +27,21 @@ export default function Header() {
     } else {
       document.body.classList.remove('menu-open');
     }
-    
     return () => document.body.classList.remove('menu-open');
   }, [isMenuOpen]);
 
   // Throttle function for better scroll performance
   const throttle = (func, limit) => {
     let inThrottle;
-    return function() {
+    return function () {
       const args = arguments;
       const context = this;
       if (!inThrottle) {
         func.apply(context, args);
         inThrottle = true;
-        setTimeout(() => inThrottle = false, limit);
+        setTimeout(() => (inThrottle = false), limit);
       }
-    }
+    };
   };
 
   const handleLinkClick = () => {
@@ -57,41 +58,34 @@ export default function Header() {
     { path: '/', label: 'Anasayfa' },
     { path: '/urunler', label: 'Ürünler' },
     { path: '/hakkimizda', label: 'Hakkımızda' },
-    { path: '/iletisim', label: 'İletişim'},
+    { path: '/iletisim', label: 'İletişim' },
   ];
 
   return (
     <>
       {/* Backdrop for mobile menu */}
       {isMenuOpen && (
-        <div 
+        <div
           className="mobile-backdrop"
           onClick={() => setIsMenuOpen(false)}
           onKeyDown={handleKeyDown}
           tabIndex={-1}
         />
       )}
-      
-      <header 
-        className={`navbar-premium ${isScrolled ? 'scrolled' : ''}`}
-        role="banner"
-      >
-        <nav 
-          className="navbar navbar-expand-lg" 
-          role="navigation"
-          aria-label="Ana navigasyon"
-        >
+
+      <header className={`navbar-premium ${isScrolled ? 'scrolled' : ''}`} role="banner">
+        <nav className="navbar navbar-expand-lg" role="navigation" aria-label="Ana navigasyon">
           <div className="container-fluid px-3 px-lg-4">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="navbar-brand logo-container"
               onClick={handleLinkClick}
               aria-label="Özkan Wood Ana Sayfa"
             >
-              <img 
-                src={logo} 
-                alt="Özkan Wood Logo" 
-                className="logo-img" 
+              <img
+                src={logo}
+                alt="Özkan Wood Logo"
+                className="logo-img"
                 loading="eager"
                 width="120"
                 height="60"
@@ -112,10 +106,7 @@ export default function Header() {
               <span className="hamburger-line"></span>
             </button>
 
-            <div 
-              className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} 
-              id="navbarNav"
-            >
+            <div className={`navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
               <ul className="navbar-nav ms-auto" role="menubar">
                 {navLinks.map(({ path, label }) => (
                   <li className="nav-item" key={path} role="none">
@@ -125,11 +116,26 @@ export default function Header() {
                       onClick={handleLinkClick}
                       role="menuitem"
                       aria-current={isActive(path) ? 'page' : undefined}
-                    >                     
+                    >
                       <span>{label}</span>
                     </Link>
                   </li>
                 ))}
+
+                {/* ✅ Sepet butonu */}
+                <li className="nav-item" role="none">
+                  <Link
+                    to="/sepet"
+                    className="nav-link cart-link"
+                    onClick={handleLinkClick}
+                    role="menuitem"
+                    aria-label={`Sepet (${count})`}
+                  >
+                    <span className="cart-icon" aria-hidden="true">🛒</span>
+                    <span>Sepet</span>
+                    <span className="cart-badge" aria-live="polite">{count}</span>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
