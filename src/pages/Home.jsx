@@ -238,9 +238,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="story-media">
+             {/*<div className="story-media">
               <div className="video-container">
-                {/*
+               
                 <video 
                   ref={videoRef} 
                   src={video} 
@@ -249,14 +249,13 @@ export default function Home() {
                   loop 
                   playsInline
                   className="story-video"
-                />
-                */}
+                />                
                 <div className="video-overlay">
                   <div className="play-button">
                     <i className="fas fa-play"></i>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
