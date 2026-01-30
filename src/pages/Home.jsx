@@ -240,6 +240,7 @@ export default function Home() {
             </div>
             <div className="story-media">
               <div className="video-container">
+                {/*
                 <video 
                   ref={videoRef} 
                   src={video} 
@@ -249,6 +250,7 @@ export default function Home() {
                   playsInline
                   className="story-video"
                 />
+                */}
                 <div className="video-overlay">
                   <div className="play-button">
                     <i className="fas fa-play"></i>
