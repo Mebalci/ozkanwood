@@ -238,7 +238,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-             {/*<div className="story-media">
+             {/*
+             <div className="story-media">
               <div className="video-container">
                
                 <video 
@@ -255,8 +256,9 @@ export default function Home() {
                     <i className="fas fa-play"></i>
                   </div>
                 </div>
-              </div>*/}
+              </div>
             </div>
+            */}
           </div>
         </div>
       </section>
