@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import { urunleriGetir } from "../api";
-import arka from "../assets/ARKA.png";
+import arka from "../assets/ARKA.wp2";
 import logoBeyaz from "../assets/LOGO_BEYAZ.png";
 
 
