@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import { urunleriGetir } from "../api";
+import arka from "../assets/ARKA.png";
+import logoBeyaz from "../assets/LOGO_BEYAZ.png";
+
 
 export default function Home() {
   const [urunler, setUrunler] = useState([]);
@@ -24,7 +27,7 @@ export default function Home() {
       <section
         className="relative text-white overflow-hidden bg-cover bg-center"
         style={{
-          backgroundImage: "url('/src/assets/ARKA.png')",
+          backgroundImage: `url(${arka})`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/35 to-black/20"></div>      
@@ -68,7 +71,7 @@ export default function Home() {
               
               {/* Logo */}
               <img
-                src="/src/assets/LOGO_BEYAZ.png"
+                src={logoBeyaz}
                 alt="Özkan Wood Logo"
                 className="
                   w-72 md:w-80 lg:w-96     
