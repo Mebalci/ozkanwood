@@ -6,18 +6,19 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ProductList from './components/ProductList';
 import ProductDetail from './pages/ProductDetail';
-import CartPage from './pages/CartPage'; // yeni
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/global.css';
+import CartPage from './pages/CartPage';
 import { CartProvider } from './context/CartContext';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
+
 
 function App() {
   return (
     <CartProvider>
       <Router>
-        <div className="d-flex flex-column min-vh-100">
+        <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-grow-1">
+          <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/hakkimizda" element={<About />} />
@@ -25,6 +26,8 @@ function App() {
               <Route path="/urunler" element={<ProductList />} />
               <Route path="/urun/:id" element={<ProductDetail />} />
               <Route path="/sepet" element={<CartPage />} />
+              <Route path="/gizlilik" element={<PrivacyPolicy />} />
+              <Route path="/kullanim-sartlari" element={<Terms />} />
             </Routes>
           </main>
           <Footer />
