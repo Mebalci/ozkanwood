@@ -17,6 +17,7 @@ export default function Footer() {
                 Özkan Wood
               </span>
             </Link>
+
             <p className="mt-4 max-w-sm text-gray-600 text-sm leading-relaxed">
               Doğal ahşap ürünleri ustalıkla işleyerek yaşam alanlarınıza estetik
               ve kalite katıyoruz.
@@ -107,35 +108,35 @@ export default function Footer() {
         {/* Divider */}
         <hr className="my-8 border-neutral-300" />
 
-        {/* PREMIUM YAZILIM BLOĞU */}
-        <div className="flex justify-center mb-8">
-          <div className="relative text-center px-10 py-6 rounded-2xl bg-white border border-neutral-200 shadow-lg hover:shadow-xl transition-shadow">
-            {/* Üst Accent Çizgi */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-1 bg-amber-500 rounded-full" />
+        {/* PREMIUM - TASARIM & YAZILIM (ORTALI) */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-3xl rounded-2xl bg-white/70 backdrop-blur border border-neutral-200 shadow-[0_18px_60px_-35px_rgba(0,0,0,0.35)] px-5 py-5 sm:px-7 sm:py-6 text-center">
+            {/* üst ince vurgu çizgisi */}
+            <div className="mx-auto mb-3 h-[3px] w-20 rounded-full bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400" />
 
-            <div className="mt-4">
-              <div className="text-[11px] tracking-[0.35em] text-gray-400 mb-2">
-                TASARIM & YAZILIM
-              </div>
+            <div className="text-[11px] sm:text-xs font-extrabold tracking-[0.35em] text-neutral-500 uppercase">
+              TASARIM & YAZILIM
+            </div>
 
-              <a
-                href="https://mebalci.github.io/Kisisel-Profil/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-extrabold text-gray-900 hover:text-amber-600 transition duration-300"
-              >
-                Muhammed Emin Balcı
-              </a>
+            <a
+              href="https://mebalci.github.io/Kisisel-Profil/"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-2 inline-flex items-center justify-center gap-2 text-lg sm:text-xl font-black text-neutral-900 hover:underline"
+              title="Yazılımcı profiline git"
+            >
+              Muhammed Emin Balcı
+              <span className="text-neutral-400">↗</span>
+            </a>
 
-              <div className="mt-1 text-xs text-gray-400 tracking-wide">
-                Full Stack Yazılım Geliştirici
-              </div>
+            <div className="mt-1 text-sm text-neutral-600 font-medium">
+              Full Stack Yazılım Geliştirici
             </div>
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="mt-8 sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
             © {currentYear}{" "}
             <span className="font-medium text-gray-700">Özkan Wood</span>. Tüm
