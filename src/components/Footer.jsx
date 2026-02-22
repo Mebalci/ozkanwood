@@ -125,8 +125,7 @@ export default function Footer() {
               className="mt-2 inline-flex items-center justify-center gap-2 text-lg sm:text-xl font-black text-neutral-900 hover:underline"
               title="Yazılımcı profiline git"
             >
-              Muhammed Emin Balcı
-              <span className="text-neutral-400">↗</span>
+              Muhammed Emin Balcı              
             </a>
 
             <div className="mt-1 text-sm text-neutral-600 font-medium">
