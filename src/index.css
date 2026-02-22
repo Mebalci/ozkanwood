@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 @layer base {
   body {
@@ -15,22 +15,20 @@
   .btn {
     @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2;
   }
-  
   .btn-primary {
     @apply bg-accent text-white hover:bg-accent-dark hover:scale-105 shadow-lg hover:shadow-xl;
   }
-  
   .btn-outline {
     @apply border-2 border-accent text-accent hover:bg-accent hover:text-white;
   }
-  
   .whatsapp-btn {
     @apply bg-success text-white px-6 py-3 rounded-full font-bold text-sm uppercase tracking-wide shadow-lg hover:bg-success-dark hover:scale-105 transition-all duration-300 inline-flex items-center gap-2;
   }
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
