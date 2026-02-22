@@ -12,11 +12,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="mb-8 md:mb-0">
             <Link to="/" className="flex items-center gap-3">
-              <img
-                src={logo}
-                alt="Özkan Wood Logo"
-                className="h-10 w-auto"
-              />
+              <img src={logo} alt="Özkan Wood Logo" className="h-10 w-auto" />
               <span className="text-2xl font-semibold text-gray-900 whitespace-nowrap">
                 Özkan Wood
               </span>
@@ -80,7 +76,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="text-sm">
-                  Önder, Taştop Sk. No:16<br />
+                  Önder, Taştop Sk. No:16
+                  <br />
                   Altındağ / Ankara
                 </li>
               </ul>
@@ -110,17 +107,42 @@ export default function Footer() {
         {/* Divider */}
         <hr className="my-8 border-neutral-300" />
 
+        {/* PREMIUM YAZILIM BLOĞU */}
+        <div className="flex justify-center mb-8">
+          <div className="relative text-center px-10 py-6 rounded-2xl bg-white border border-neutral-200 shadow-lg hover:shadow-xl transition-shadow">
+            {/* Üst Accent Çizgi */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-1 bg-amber-500 rounded-full" />
+
+            <div className="mt-4">
+              <div className="text-[11px] tracking-[0.35em] text-gray-400 mb-2">
+                TASARIM & YAZILIM
+              </div>
+
+              <a
+                href="https://mebalci.github.io/Kisisel-Profil/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-extrabold text-gray-900 hover:text-amber-600 transition duration-300"
+              >
+                Muhammed Emin Balcı
+              </a>
+
+              <div className="mt-1 text-xs text-gray-400 tracking-wide">
+                Full Stack Yazılım Geliştirici
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom */}
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
             © {currentYear}{" "}
-            <span className="font-medium text-gray-700">
-              Özkan Wood
-            </span>
-            . Tüm hakları saklıdır.
+            <span className="font-medium text-gray-700">Özkan Wood</span>. Tüm
+            hakları saklıdır.
           </span>
 
-          {/* Social icons (SVG – Flowbite style) */}
+          {/* Social icons */}
           <div className="flex mt-4 sm:mt-0 space-x-5">
             {/* Instagram */}
             <a
@@ -128,11 +150,7 @@ export default function Footer() {
               className="text-gray-500 hover:text-gray-900 transition-colors"
               aria-label="Instagram"
             >
-              <svg
-                className="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5ZM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7Zm5.25-.88a1.13 1.13 0 1 1 0 2.26a1.13 1.13 0 0 1 0-2.26Z" />
               </svg>
             </a>
@@ -145,11 +163,7 @@ export default function Footer() {
               className="text-gray-500 hover:text-gray-900 transition-colors"
               aria-label="WhatsApp"
             >
-              <svg
-                className="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2a10 10 0 0 0-8.66 15l-1.34 5l5.13-1.34A10 10 0 1 0 12 2Zm0 1.5a8.5 8.5 0 0 1 0 17a8.4 8.4 0 0 1-4.27-1.16l-.3-.18l-3.04.8l.8-2.97l-.2-.31A8.5 8.5 0 0 1 12 3.5Zm4.2 10.62c-.23-.11-1.36-.67-1.57-.75c-.21-.08-.37-.11-.52.11c-.15.23-.6.75-.73.9c-.13.15-.27.17-.5.06a6.8 6.8 0 0 1-2-1.24a7.6 7.6 0 0 1-1.4-1.75c-.15-.23-.02-.35.1-.46c.11-.11.23-.27.35-.4c.11-.13.15-.23.23-.38c.08-.15.04-.29-.02-.4c-.06-.11-.52-1.25-.71-1.72c-.19-.45-.38-.39-.52-.39l-.44-.01c-.15 0-.4.06-.61.29c-.21.23-.8.78-.8 1.9c0 1.11.82 2.19.93 2.34c.11.15 1.62 2.47 3.93 3.46c.55.24.98.38 1.32.49c.55.17 1.05.15 1.45.09c.44-.06 1.36-.56 1.55-1.1c.19-.54.19-1 .13-1.1c-.06-.1-.21-.16-.44-.27Z" />
               </svg>
             </a>
