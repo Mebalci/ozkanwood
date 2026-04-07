@@ -1,6 +1,81 @@
 {
-  "updatedAt": "2026-04-06T05:24:40.802160",
+  "updatedAt": "2026-04-07T05:09:19.551974",
   "products": [
+    {
+      "id": "3c207426453cdb4b4f1e93797877eb00",
+      "title": "2'li Set Çocuk figürlü Taş Boyama",
+      "brand": "KOÇSAN",
+      "description": "<div id=\"rich-content-wrapper\">\n <div>\n  <p> - Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.<br> </p> \n  <p> - Seramik boyama aktivite paketi, çocukların güvenle kullanabileceği şekilde tasarlanmıştır ve herhangi bir tehlike içermez.<br> </p> \n  <p> - Bu set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.<br> </p> \n  <div>\n   <br>\n  </div> \n </div>\n</div>",
+      "price": 149.9,
+      "salePrice": 149.9,
+      "quantity": 1000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260406/13/0ba934d6-d013-33d7-a922-c5171ba9e417/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260406/13/fb8dcece-1000-3f05-b9f6-e731ca234121/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/koc-san/2-li-set-c-ocuk-figu-rlu-tas-boyama-p-1129343276?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "6f822e378eaba9d7f5e7a00877053224",
+      "title": "Taş Boyama çocuk figürü",
+      "brand": "KOÇSAN",
+      "description": "<div id=\"rich-content-wrapper\">\n <div> \n  <div> \n   <p> - Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.<br> </p> \n   <p> - Seramik boyama aktivite paketi, çocukların güvenle kullanabileceği şekilde tasarlanmıştır ve herhangi bir tehlike içermez.<br> </p> \n   <p> - Bu set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.<br> </p> \n   <div> \n    <br> \n   </div> \n  </div> \n </div>\n</div>",
+      "price": 149.9,
+      "salePrice": 149.9,
+      "quantity": 1000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260406/13/791d7928-9fe8-348d-a681-8b0eb4447d9c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260406/13/f4530bf6-aa29-3064-b7fc-63164881d2df/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/koc-san/tas-boyama-c-ocuk-figu-ru-p-1129342249?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "981fb20921db1de048060f07562f81d6",
+      "title": "2'li araba motor boyama seti",
+      "brand": "KOÇSAN",
+      "description": "<div id=\"rich-content-wrapper\">\n <div>\n  <p> <span> </span>Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.<br> </p> \n  <p> - Seramik boyama aktivite paketi, çocukların güvenle kullanabileceği şekilde tasarlanmıştır ve herhangi bir tehlike içermez.<br> </p> \n  <p> - Bu set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.<br> </p> \n  <div>\n   <br>\n  </div> \n </div>\n</div>",
+      "price": 149.9,
+      "salePrice": 149.9,
+      "quantity": 1000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260406/13/2076fa8e-c180-37af-b8bb-8b8a3fb3b5ca/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260406/13/66094915-d743-3de3-a3dc-28576cbd63ef/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/koc-san/2-li-araba-motor-boyama-seti-p-1129342200?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "af55a9f28d3eb9dfd53b1527d7f32cf5",
+      "title": "9'lu Set Deniz Hayvanları Figürleri",
+      "brand": "KOÇSAN",
+      "description": "<div id=\"rich-content-wrapper\">\n <div> \n  <span><span><span>Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.</span></span></span>\n  <br> \n </div> \n <div> \n  <span><span><span><span> </span>set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.</span></span></span>\n  <br> \n </div> \n <div> \n  <span><span><span>BOYA ve FIRÇA Setin içine dahildir.</span></span></span>\n  <br> \n </div>\n</div>",
+      "price": 149.9,
+      "salePrice": 149.9,
+      "quantity": 1000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260406/13/08040654-1c0d-36ac-b0b0-0d72715e2deb/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260406/13/5c3b77f7-eb9c-32aa-ac05-3709c8b68c9d/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/koc-san/9-lu-set-deniz-hayvanlari-figu-rleri-p-1129342075?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "8c90197a8e804fde0760e01b31bb7382",
+      "title": "3'lü Obje Taş Boyama Seti",
+      "brand": "KOÇSAN",
+      "description": "<div id=\"rich-content-wrapper\">\n <div>\n  <p> <span> </span>Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.<br> </p> \n  <p> - Seramik boyama aktivite paketi, çocukların güvenle kullanabileceği şekilde tasarlanmıştır ve herhangi bir tehlike içermez.<br> </p> \n  <p> - Bu set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.<br> </p> \n  <div>\n   <br>\n  </div> \n </div>\n</div>",
+      "price": 149.9,
+      "salePrice": 149.9,
+      "quantity": 1000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1851/prod/QC_PREP/20260406/13/f4277b05-0070-3384-b1fd-9ab092e615de/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260406/13/2210937f-05be-3d35-b023-142af94f5d80/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/koc-san/3-lu-obje-tas-boyama-seti-p-1129341758?merchantId=254250&filterOverPriceListings=false"
+    },
     {
       "id": "d70fcd4027b8bc70f2b62fbcfa150017",
       "title": "ATATÜRK-Bayrak 2'li bıblo set",
@@ -8,7 +83,7 @@
       "description": "<div id=\"rich-content-wrapper\">\n <div> \n  <span><span><span>Dekoratif obje olarak her alanda kullanılır</span></span></span>\n  <br> \n </div> \n <div> \n  <span><span><span>Yaratıcı hobi severler</span></span></span>\n  <br> \n </div> \n <div> \n  <span><span><span>arkadaşa hedıye</span></span></span>\n  <br> \n </div> \n <div> \n  <span><span><span>ürünler alçıdan üretilmektedir, boya ve fırca seti ile bırlikte gönderılmektedir.</span></span></span>\n  <br> \n </div>\n</div>",
       "price": 139.9,
       "salePrice": 139.9,
-      "quantity": 1000,
+      "quantity": 998,
       "images": [
         "https://cdn.dsmcdn.com/ty1848/prod/QC_PREP/20260404/17/d4999cc7-2a3d-3bd9-8a68-299aa70c013a/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1850/prod/QC_PREP/20260404/17/97440984-2ab4-3536-99a3-77d15266a8d8/1_org_zoom.jpg"
@@ -214,7 +289,7 @@
       "description": "- Ahşap kulp tasarımı, mutfak mobilyalarınıza doğal ve rustik bir görünüm kazandırır.; - Çift delikli yapısı sayesinde kolay montaj imkanı sunar ve farklı dolap ve çekmece boyutlarına uyum sağlar.; - Türkiye menşeli olmasıyla yerli üretim kalitesini ve dayanıklılığını garanti eder.; Doğal ahşap ürünler de ton farkı olabilir.; Ürünler 1. sınıf gürgen ağacından üretilmektedir.;",
       "price": 74.99,
       "salePrice": 74.99,
-      "quantity": 916,
+      "quantity": 892,
       "images": [
         "https://cdn.dsmcdn.com/ty1797/prod/QC_PREP/20251209/10/a8e3d1da-5078-39a7-bc56-cd99abf01cc6/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1799/prod/QC_PREP/20251209/10/d35c1b20-87ff-370a-a85a-9f4c3cfb37e5/1_org_zoom.jpg",
@@ -286,7 +361,7 @@
       "description": "- Ahşap kulp tasarımı, mutfak mobilyalarınıza doğal ve rustik bir görünüm kazandırır.; - Çift delikli yapısı sayesinde kolay montaj imkanı sunar ve farklı dolap ve çekmece boyutlarına uyum sağlar.; - Türkiye menşeli olmasıyla yerli üretim kalitesini ve dayanıklılığını garanti eder.; Doğal ahşap ürünler de ton farkı olabilir.; Ürünler 1. sınıf gürgen ağacından üretilmektedir.;",
       "price": 49.99,
       "salePrice": 49.99,
-      "quantity": 780,
+      "quantity": 772,
       "images": [
         "https://cdn.dsmcdn.com/ty1797/prod/QC_PREP/20251209/10/a8e3d1da-5078-39a7-bc56-cd99abf01cc6/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1799/prod/QC_PREP/20251209/10/d35c1b20-87ff-370a-a85a-9f4c3cfb37e5/1_org_zoom.jpg",
@@ -557,7 +632,7 @@
       "description": "- Ahşap malzeme kullanılarak üretilen bu kulplar, doğal bir görünüm ve dayanıklılık sunar.; - Kimyasal temizleyicilerle silinmez, bu sayede uzun ömürlü kullanım sağlar.; - Nemli bez ile kolayca temizlenebilir, böylece hijyenik bir kullanım imkanı sunar.; - Delik aralıklarının olmadığı tasarım, montaj sırasında ekstra kolaylık sağlar.; - Pembe renk seçeneği ile mutfak mobilyalarınıza şık ve canlı bir dokunuş katar.; - Özkan Wood tarafından üretilen bu kulplar, kalite ve güvenilirliği garanti eder.; - Yetkili temsilci tarafından ithal edilen ürünler, yerel standartlara uygunluk açısından güven verir.",
       "price": 109.99,
       "salePrice": 109.99,
-      "quantity": 848,
+      "quantity": 833,
       "images": [
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/f0f2793e-9390-3651-b792-7b4bb80ea72a/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/4c081ef9-6f55-32f8-868a-75ca3295afb9/1_org_zoom.jpg",
@@ -573,7 +648,7 @@
       "description": "- Ahşap kulplar, mutfak mobilyalarınızın şıklığını ve doğallığını artırır.; - \"Menşei\" olarak Türkiye'de üretilmiş olup, yerli üretimden gurur duymayı sağlar.; - Kimyasal temizlik maddelerine karşı dayanıklıdır; sadece nemli bir bez ile kolayca temizlenebilir.; - Delikler arası mesafe bulunmadığı için montaj sırasında ekstra delik açma gerektirmez.; - Kahverengi rengiyle sıcak ve doğal bir görünüm sunar; her türlü dekorasyona uyum sağlar.; - Web Color olarak belirtilen kahverengi tonu, mobilyalarınıza zarif bir dokunuş katar.; - Düğme tipi kulplar, kolay açılıp kapanma imkanı sunarak kullanım kolaylığı sağlar.; - Özkan Wood tarafından üretilmiş olup kalite ve güvenilirlik garantisi verir.; - Yetkili temsilci tarafından ithal edilmiş ve ifa hizmeti sağlanmış olup müşteri memnuniyetine önem verir.",
       "price": 64.99,
       "salePrice": 64.99,
-      "quantity": 8374,
+      "quantity": 8366,
       "images": [
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/c3fb1da0-d6fa-39d8-a8d6-74fdef4dcce3/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/95f990b2-db2c-3f96-b1f8-cf47ef4e186b/1_org_zoom.jpg",
@@ -749,7 +824,7 @@
       "description": "- 96mm (9.6cm) çapında, geniş kullanım alanı sunan ahşap kulp.; - Lüks tasarımıyla mutfak mobilyalarınıza şıklık katan çift delikli bağlantı sistemi.; - Dayanıklı ve uzun ömürlü kullanım için yüksek kaliteli malzemeden üretilmiştir.; - Kolay montaj imkanı sağlayan pratik yapısı ile zamandan tasarruf eder.; - Doğal ahşap rengiyle her türlü dekorasyona uyum sağlayarak estetik bir görünüm oluşturur.; DOĞAL AHŞAP ÜRÜNLERDE TON FARKI OLABILIR!!",
       "price": 47.99,
       "salePrice": 47.99,
-      "quantity": 326,
+      "quantity": 314,
       "images": [
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/9592ff13-9167-3fc6-9347-0b95f38c575f/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/c112bd93-17f4-37bf-be9e-7f6c2a1c1515/1_org_zoom.jpg",
@@ -821,7 +896,7 @@
       "description": "-geniş kullanım alanı sunan ahşap kulp.; - Lüks tasarımıyla mutfak mobilyalarınıza şıklık katan çift delikli bağlantı sistemi.; - Dayanıklı ve uzun ömürlü kullanım için yüksek kaliteli malzemeden üretilmiştir.; - Kolay montaj imkanı sağlayan pratik yapısı ile zamandan tasarruf eder.; - Doğal ahşap rengiyle her türlü dekorasyona uyum sağlayarak estetik bir görünüm oluşturur.; DOĞAL AHŞAP ÜRÜNLERDE TON FARKI OLABILIR!!",
       "price": 74.99,
       "salePrice": 74.99,
-      "quantity": 941,
+      "quantity": 936,
       "images": [
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/9592ff13-9167-3fc6-9347-0b95f38c575f/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/c112bd93-17f4-37bf-be9e-7f6c2a1c1515/1_org_zoom.jpg",
@@ -839,7 +914,7 @@
       "description": "- 96mm (9.6cm) çapında, geniş kullanım alanı sunan ahşap kulp.; - Lüks tasarımıyla mutfak mobilyalarınıza şıklık katan çift delikli bağlantı sistemi.; - Dayanıklı ve uzun ömürlü kullanım için yüksek kaliteli malzemeden üretilmiştir.; - Kolay montaj imkanı sağlayan pratik yapısı ile zamandan tasarruf eder.; - Doğal ahşap rengiyle her türlü dekorasyona uyum sağlayarak estetik bir görünüm oluşturur.; DOĞAL AHŞAP ÜRÜNLERDE TON FARKI OLABILIR!!",
       "price": 54.99,
       "salePrice": 54.99,
-      "quantity": 533,
+      "quantity": 529,
       "images": [
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/9592ff13-9167-3fc6-9347-0b95f38c575f/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1719/prod/QC_PREP/20250804/15/c112bd93-17f4-37bf-be9e-7f6c2a1c1515/1_org_zoom.jpg",
@@ -2231,7 +2306,7 @@
       "description": "Çift delikli tasarımı sayesinde, çeşitli boyutlardaki mobilya çekmecelerine kolayca monte edilebilir ve kullanım esnekliği sağlar; 224mm çapında geniş yüzeyi ile hem dayanıklılığı artırır hem de şık bir görünüm sunar; Lüks country tarzı, mutfak ve diğer mobilyalarınıza modern bir dokunuş katar; Ahşap malzemesi doğal bir estetik sunarken, uzun ömürlü kullanım vaat eder;",
       "price": 550,
       "salePrice": 550,
-      "quantity": 988,
+      "quantity": 987,
       "images": [
         "https://cdn.dsmcdn.com/ty1100/product/media/images/prod/SPM/PIM/20231220/19/6bf6023f-aa99-3703-b48a-ccb086481cf4/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1099/product/media/images/prod/SPM/PIM/20231220/19/c6f15412-2f0d-3fd3-857e-7b8324fb1c0e/1_org_zoom.jpg",
@@ -3427,7 +3502,7 @@
       "description": "- Country tarzı mutfak mobilyalarınızda şıklığı ve dayanıklılığı bir arada sunan ahşap kulp.; - Tek delikli tasarımı ile kolay montaj imkanı sağlar, ekstra aksesuar ihtiyacını ortadan kaldırır.; - Hava geçirgen yapısı sayesinde zamanla kararma veya paslanma gibi sorunlara karşı dirençlidir.; - Doğal ahşap rengiyle mevcut dekorasyonunuza sıcaklık ve doğal bir dokunuş katar.; - Web renk seçeneği olarak kahverengi tonuyla her türlü iç mekan tasarımına uyum sağlar.; DOĞAL AHŞAP ÜRÜNLER DE TON FARKI OLABİLİR!!!",
       "price": 44.5,
       "salePrice": 44.5,
-      "quantity": 9129,
+      "quantity": 9006,
       "images": [
         "https://cdn.dsmcdn.com/ty1767/prod/QC_ENRICHMENT/20251008/23/3c3e1f8f-d09c-3447-9174-872a87907a56/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1768/prod/QC_ENRICHMENT/20251008/23/fc9e34cc-3091-338a-b80e-ba45b03f3487/1_org_zoom.jpg",
@@ -3510,7 +3585,7 @@
       "description": "Lüks ve şık tasarımıyla dikkat çeken Sıla ahşap kulp, mutfak dolaplarınıza modern bir dokunuş katıyor; Country tarzı mutfak dekorasyonunuza uyum sağlayacak şekilde tasarlanmış bu kulplar, hem işlevsel hem de estetik bir görünüm sunuyor; Dayanıklı yapısı sayesinde uzun ömürlü kullanım vaat eden Sıla ahşap kulplar, sık kullanıma karşı dirençli bir yapıya sahip; Düğme tipi tasarımı ile kolay ve pratik kullanım imkanı sunan bu kulplar, günlük işlerinizi daha hızlı ve rahat hale getiriyor; Mutfak dolaplarınızda veya diğer mobilyalarınızda kullanabileceğiniz bu kulplar, mekanınıza sıcaklık ve zarafet katıyor;",
       "price": 52.9,
       "salePrice": 52.9,
-      "quantity": 418,
+      "quantity": 414,
       "images": [
         "https://cdn.dsmcdn.com/ty1761/prod/QC_ENRICHMENT/20250925/13/d719d920-a594-350d-9e7b-9ec804f2130e/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1762/prod/QC_ENRICHMENT/20250925/13/7925650b-c7c5-3e58-8ff1-6c4801624896/1_org_zoom.jpg",
