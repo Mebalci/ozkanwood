@@ -54,7 +54,7 @@ jobs:
       run: |
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
-        git add public/urunler.json
+        git add public/urunler.json public/kategoriler.json
         git commit -m "🔁 JSON güncellendi ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
         git pull --rebase origin master || true
         git push origin HEAD:master
