@@ -37,10 +37,13 @@ jobs:
     - name: Ürün verisini çek
       run: python scripts/urun_tarayici.py
 
+    - name: Kategori verisini çek
+      run: python scripts/kategori_tarayici.py
+
     - name: Değişiklik var mı?
       id: diff
       run: |
-        if git diff --quiet public/urunler.json; then
+        if git diff --quiet public/urunler.json public/kategoriler.json; then
           echo "changed=no" >> $GITHUB_OUTPUT
         else
           echo "changed=yes" >> $GITHUB_OUTPUT
