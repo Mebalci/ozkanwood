@@ -18,30 +18,67 @@ def generate_headers():
         "storeFrontCode": "tr"
     }
 
-def flatten_categories(cat):
- 
-    queue = deque([cat])
+def flatten_categories(root):
+    queue = deque([root])
     flat = []
     while queue:
         node = queue.popleft()
-        flat.append({"id": node["id"], "name": node["name"], "parentId": node["parentId"]})
-        for sub in node.get("subCategories", []):
-            queue.append(sub)
-    return flat
+       
+        node_id = node.get("id")
+        node_name = node.get("name")
+        if not node_id or not node_name:
+            
+            for child_list_key in ["subCategories", "subcategories", "children"]:
+                for child in node.get(child_list_key, []):
+                    queue.append(child)
+            continue
+        flat.append({
+            "id": node_id,
+            "name": node_name,
+            "parentId": node.get("parentId")
+        })
+        
+        for child_list_key in ["subCategories", "subcategories", "children"]:
+            for child in node.get(child_list_key, []):
+                queue.append(child)
+    return 
 
 def fetch_categories():
-    url = "https://api.trendyol.com/integration/product/product-categories"
-    res = requests.get(url, headers=generate_headers())
-    res.raise_for_status()
-    data = res.json()
-   
-    categories = []
-    if isinstance(data, list):
-        for cat in data:
-            categories.extend(flatten_categories(cat))
-    else:
-        categories = flatten_categories(data)
-    return categories
+    try:
+        url = "https://api.trendyol.com/integration/product/product-categories"
+        res = requests.get(url, headers=generate_headers())
+        res.raise_for_status()
+        data = res.json()
+    
+        categories = []
+        
+        if isinstance(data, list):
+            for node in data:
+                categories.extend(flatten_categories(node))
+        
+        elif isinstance(data, dict):       
+            candidate_keys = ["categories", "category", "rootCategories"]
+            for key in candidate_keys:
+                if key in data and isinstance(data[key], list):
+                    for node in data[key]:
+                        categories.extend(flatten_categories(node))
+                    break
+            else:            
+                categories = flatten_categories(data)
+        return categories
+    except Exception as e:
+        print(f"Kategori API çağrısı başarısız: {e}")
+        # Fallback: ürünler dosyasından kategori çıkart
+        products_file = "public/urunler.json"
+        categories_set = set()
+        if os.path.exists(products_file):
+            with open(products_file, "r", encoding="utf-8") as f:
+                products_data = json.load(f)
+            for p in products_data.get("products", []):
+                cat = p.get("category")
+                if cat:
+                    categories_set.add(cat)
+        return [{"id": i + 1, "name": name, "parentId": None} for i, name in enumerate(sorted(categories_set))]
 
 def main():
     kategoriler = fetch_categories()
