@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-04-25T05:11:26.278827",
+  "updatedAt": "2026-04-26T05:39:34.532577",
   "products": [
+    {
+      "id": "22bc35e87dca3df3ba2bb413057e0fb2",
+      "title": "Stich 2'li Obje Boya Seti",
+      "brand": "Yc Dekor",
+      "description": "- farklı renk seçeneğiyle yaratıcılığınızı konuşturun: Stich 2'li Obje Boya Seti, farklı projeleriniz için ideal renkleri sunar.; - Kolay uygulama: Su bazlı formülü sayesinde, fırça veya süngerle kolayca uygulanır ve hızlı kurur.; - Parlak ve canlı renkler: Objenizin görünümünü zenginleştiren canlı ve parlak renkler elde edin.; - Çok yönlü kullanım: Ahşap, seramik, cam, metal gibi çeşitli yüzeylerde kullanabilirsiniz.; - Uzun ömürlü sonuçlar: Dayanıklı yapısı sayesinde boyadığınız objeler uzun süre ilk günkü gibi kalır.;",
+      "price": 169.9,
+      "salePrice": 169.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1861/prod/QC_PREP/20260425/12/7dac1305-ce52-3d08-9630-b155f7fd0595/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1861/prod/QC_PREP/20260425/12/dcbd2f15-5d2d-353d-a9e1-fa276b0ffb9a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1861/prod/QC_PREP/20260425/12/1ca9317a-3e40-3b41-91b9-222b39e1fd43/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1862/prod/QC_PREP/20260425/12/61a22847-0b16-3656-868c-ae575647eeef/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/stich-2-li-obje-boya-seti-p-1138141390?merchantId=254250&filterOverPriceListings=false"
+    },
     {
       "id": "4eb8e0d9a210fe4e93e38f959ff1ce75",
       "title": "2'li Obje Taş Boyama Seti",
@@ -8,7 +25,7 @@
       "description": "- Türkiye'de üretilmiştir, yerel üretimi destekler.; - Tehlikeli madde içermez, güvenle kullanabilirsiniz.;",
       "price": 149.9,
       "salePrice": 149.9,
-      "quantity": 100,
+      "quantity": 99,
       "images": [
         "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/14/16e8a752-cf60-3109-b4c0-f500baf53a92/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/14/99233f66-63e4-3029-be95-ef2816af49f4/1_org_zoom.jpg",
@@ -500,7 +517,7 @@
       "description": "<div id=\"rich-content-wrapper\">\n <div> \n  <div> \n   <p> - Türkiye'de üretilen ÖZKAN WOOD Boya Oyna Seti, yerel üretim desteklenerek çocukların yaratıcılığını teşvik eder.<br> </p> \n   <p> - Seramik boyama aktivite paketi, çocukların güvenle kullanabileceği şekilde tasarlanmıştır ve herhangi bir tehlike içermez.<br> </p> \n   <p> - Bu set, çocukların sanatsal yeteneklerini geliştirmelerine yardımcı olurken aynı zamanda eğlenceli vakit geçirmelerini sağlar.<br> </p> \n   <div> \n    <br> \n   </div> \n  </div> \n </div>\n</div>",
       "price": 149.9,
       "salePrice": 149.9,
-      "quantity": 997,
+      "quantity": 996,
       "images": [
         "https://cdn.dsmcdn.com/ty1856/prod/QC_ENRICHMENT/20260412/21/a1d9d12e-63ca-3ca3-a5d3-0f0ad04339d9/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260406/13/0ba934d6-d013-33d7-a922-c5171ba9e417/1_org_zoom.jpg",
@@ -566,7 +583,7 @@
       "description": "- Tek ebat tasarımıyla her yaştan kullanıcıya uygun.; - Set içerisinde 1 adet fırça ve çeşitli renklerde boya bulunmaktadır.; - Türkiye'de üretilmiştir, yerel üretimdir.; - ÖZKAN WOOD güvencesiyle üretilmiştir.; - Tehlikeli madde içermez, güvenle kullanılabilir.; - Üreticiye ait mail adresi: osmanozkan317@gmail.; com.; - Üretici adres bilgisi: tastop sokak no:16/1. .",
       "price": 149.9,
       "salePrice": 149.9,
-      "quantity": 975,
+      "quantity": 974,
       "images": [
         "https://cdn.dsmcdn.com/ty1852/prod/QC_ENRICHMENT/20260407/08/7c164a93-bc59-366d-ac1f-4e9b451fe83d/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1853/prod/QC_ENRICHMENT/20260407/08/8de05ed1-3b3e-303b-919b-48c4364b4406/1_org_zoom.jpg",
@@ -773,7 +790,7 @@
       "description": "- Ahşap kulp tasarımı, mutfak mobilyalarınıza doğal ve rustik bir görünüm kazandırır.; - Çift delikli yapısı sayesinde kolay montaj imkanı sunar ve farklı dolap ve çekmece boyutlarına uyum sağlar.; - Türkiye menşeli olmasıyla yerli üretim kalitesini ve dayanıklılığını garanti eder.; Doğal ahşap ürünler de ton farkı olabilir.; Ürünler 1. sınıf gürgen ağacından üretilmektedir.;",
       "price": 59.99,
       "salePrice": 59.99,
-      "quantity": 804,
+      "quantity": 802,
       "images": [
         "https://cdn.dsmcdn.com/ty1797/prod/QC_PREP/20251209/10/a8e3d1da-5078-39a7-bc56-cd99abf01cc6/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1799/prod/QC_PREP/20251209/10/d35c1b20-87ff-370a-a85a-9f4c3cfb37e5/1_org_zoom.jpg",
@@ -791,7 +808,7 @@
       "description": "- Ahşap kulp tasarımı, mutfak mobilyalarınıza doğal ve rustik bir görünüm kazandırır.; - Çift delikli yapısı sayesinde kolay montaj imkanı sunar ve farklı dolap ve çekmece boyutlarına uyum sağlar.; - Türkiye menşeli olmasıyla yerli üretim kalitesini ve dayanıklılığını garanti eder.; Doğal ahşap ürünler de ton farkı olabilir.; Ürünler 1. sınıf gürgen ağacından üretilmektedir.;",
       "price": 74.99,
       "salePrice": 74.99,
-      "quantity": 863,
+      "quantity": 862,
       "images": [
         "https://cdn.dsmcdn.com/ty1797/prod/QC_PREP/20251209/10/a8e3d1da-5078-39a7-bc56-cd99abf01cc6/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1799/prod/QC_PREP/20251209/10/d35c1b20-87ff-370a-a85a-9f4c3cfb37e5/1_org_zoom.jpg",
@@ -1150,7 +1167,7 @@
       "description": "- Ahşap kulplar, mutfak mobilyalarınızın şıklığını ve doğallığını artırır.; - \"Menşei\" olarak Türkiye'de üretilmiş olup, yerli üretimden gurur duymayı sağlar.; - Kimyasal temizlik maddelerine karşı dayanıklıdır; sadece nemli bir bez ile kolayca temizlenebilir.; - Delikler arası mesafe bulunmadığı için montaj sırasında ekstra delik açma gerektirmez.; - Kahverengi rengiyle sıcak ve doğal bir görünüm sunar; her türlü dekorasyona uyum sağlar.; - Web Color olarak belirtilen kahverengi tonu, mobilyalarınıza zarif bir dokunuş katar.; - Düğme tipi kulplar, kolay açılıp kapanma imkanı sunarak kullanım kolaylığı sağlar.; - Özkan Wood tarafından üretilmiş olup kalite ve güvenilirlik garantisi verir.; - Yetkili temsilci tarafından ithal edilmiş ve ifa hizmeti sağlanmış olup müşteri memnuniyetine önem verir.",
       "price": 64.99,
       "salePrice": 64.99,
-      "quantity": 8109,
+      "quantity": 8100,
       "images": [
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/c3fb1da0-d6fa-39d8-a8d6-74fdef4dcce3/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/95f990b2-db2c-3f96-b1f8-cf47ef4e186b/1_org_zoom.jpg",
@@ -2919,7 +2936,7 @@
       "description": "64 mm çapında, dayanıklı ve uzun ömürlü kullanım sunan ahşap kulp, mutfak dolapları ve çekmecelerinizde şık bir görünüm sağlar; Lüks country tarzı tasarımıyla mekanınıza sıcak ve doğal bir dokunuş katar; 10 adet set halinde sunulan bu kulplar, birden fazla mobilya parçasını aynı anda yenilemenize olanak tanır; Mobilya kulpları olarak tasarlanmış olup, hem işlevsel hem de estetik bir kullanım deneyimi vaat eder;",
       "price": 429.9,
       "salePrice": 429.9,
-      "quantity": 986,
+      "quantity": 984,
       "images": [
         "https://cdn.dsmcdn.com/ty1099/product/media/images/prod/SPM/PIM/20231220/19/185c78bb-922e-37a0-a5ac-98cf4545786c/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1098/product/media/images/prod/SPM/PIM/20231220/19/7bede08a-78a8-350c-a401-f4c090803af0/1_org_zoom.jpg",
@@ -4004,7 +4021,7 @@
       "description": "- Country tarzı mutfak mobilyalarınızda şıklığı ve dayanıklılığı bir arada sunan ahşap kulp.; - Tek delikli tasarımı ile kolay montaj imkanı sağlar, ekstra aksesuar ihtiyacını ortadan kaldırır.; - Hava geçirgen yapısı sayesinde zamanla kararma veya paslanma gibi sorunlara karşı dirençlidir.; - Doğal ahşap rengiyle mevcut dekorasyonunuza sıcaklık ve doğal bir dokunuş katar.; - Web renk seçeneği olarak kahverengi tonuyla her türlü iç mekan tasarımına uyum sağlar.; DOĞAL AHŞAP ÜRÜNLER DE TON FARKI OLABİLİR!!!",
       "price": 44.5,
       "salePrice": 44.5,
-      "quantity": 7676,
+      "quantity": 7660,
       "images": [
         "https://cdn.dsmcdn.com/ty1767/prod/QC_ENRICHMENT/20251008/23/3c3e1f8f-d09c-3447-9174-872a87907a56/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1768/prod/QC_ENRICHMENT/20251008/23/fc9e34cc-3091-338a-b80e-ba45b03f3487/1_org_zoom.jpg",
