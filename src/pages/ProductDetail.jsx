@@ -5,19 +5,37 @@ import { useCart } from "../context/CartContext";
 /* ---------- SVG ICONS ---------- */
 const IconArrowLeft = ({ className }) => (
   <svg viewBox="0 0 24 24" fill="none" className={className}>
-    <path d="M15 18l-6-6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      d="M15 18l-6-6 6-6"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
   </svg>
 );
 
 const IconChevronLeft = ({ className }) => (
   <svg viewBox="0 0 24 24" fill="none" className={className}>
-    <path d="M15 18l-6-6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      d="M15 18l-6-6 6-6"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
   </svg>
 );
 
 const IconChevronRight = ({ className }) => (
   <svg viewBox="0 0 24 24" fill="none" className={className}>
-    <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      d="M9 6l6 6-6 6"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
   </svg>
 );
 
@@ -52,20 +70,29 @@ export default function ProductDetail() {
       setUrun(location.state.urun);
     } else {
       fetch("/urunler.json")
-        .then((res) => res.json())
-        .then((data) => {
-          const matching = data.products.find((p) => String(p.id) === String(id));
+        .then(res => res.json())
+        .then(data => {
+          const matching = data.products.find(
+            p => String(p.id) === String(id),
+          );
           setUrun(matching || null);
         });
     }
   }, [location.state, id]);
 
-  const formatPrice = (n) => new Intl.NumberFormat("tr-TR").format(n);
-  const discountedPrice = Math.round((urun?.salePrice || urun?.price) * 0.95);
+  const formatPrice = n => new Intl.NumberFormat("tr-TR").format(n);
+  // %40 indirim ile indirimli fiyat hesapla
+  const discountedPrice = Math.round(
+    (urun?.salePrice || urun?.price) * 0.6,
+  );
   const originalPrice = urun?.salePrice || urun?.price;
 
   const stockStatus =
-    urun?.quantity <= 10 ? "low" : urun?.quantity <= 50 ? "medium" : "high";
+    urun?.quantity <= 10
+      ? "low"
+      : urun?.quantity <= 50
+      ? "medium"
+      : "high";
 
   const stockText =
     urun?.quantity <= 10
@@ -105,7 +132,7 @@ export default function ProductDetail() {
           <div className="relative">
             <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
               <span className="bg-accent text-white px-4 py-2 rounded-full text-sm font-bold">
-                %5 İndirim
+                %40 İndirim
               </span>
               <span
                 className={`${stockColors[stockStatus]} text-white px-4 py-2 rounded-full text-sm font-bold`}
@@ -125,7 +152,9 @@ export default function ProductDetail() {
                 <>
                   <button
                     onClick={() =>
-                      setImageIndex((i) => (i === 0 ? urun.images.length - 1 : i - 1))
+                      setImageIndex(i =>
+                        i === 0 ? urun.images.length - 1 : i - 1,
+                      )
                     }
                     className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full
                                bg-white/90 hover:bg-white shadow-lg flex items-center justify-center"
@@ -135,7 +164,9 @@ export default function ProductDetail() {
 
                   <button
                     onClick={() =>
-                      setImageIndex((i) => (i === urun.images.length - 1 ? 0 : i + 1))
+                      setImageIndex(i =>
+                        i === urun.images.length - 1 ? 0 : i + 1,
+                      )
                     }
                     className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full
                                bg-white/90 hover:bg-white shadow-lg flex items-center justify-center"
@@ -154,7 +185,11 @@ export default function ProductDetail() {
                   src={img}
                   onClick={() => setImageIndex(i)}
                   className={`w-20 h-20 object-cover rounded-lg cursor-pointer border-2 transition
-                    ${i === imageIndex ? "border-accent" : "border-transparent opacity-60 hover:opacity-100"}`}
+                    ${
+                      i === imageIndex
+                        ? "border-accent"
+                        : "border-transparent opacity-60 hover:opacity-100"
+                    }`}
                 />
               ))}
             </div>
@@ -162,9 +197,15 @@ export default function ProductDetail() {
 
           {/* INFO */}
           <div>
-            {urun.brand && <div className="text-accent font-semibold mb-2">{urun.brand}</div>}
+            {urun.brand && (
+              <div className="text-accent font-semibold mb-2">
+                {urun.brand}
+              </div>
+            )}
 
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">{urun.title}</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+              {urun.title}
+            </h1>
 
             <div className="mb-6">
               <div className="flex items-baseline gap-4">
@@ -175,6 +216,9 @@ export default function ProductDetail() {
                   {formatPrice(originalPrice)} ₺
                 </span>
               </div>
+              <p className="text-sm text-gray-500 mt-2">
+                Fiyata ek olarak 100 TL kargo ve %20 KDV eklenecektir.
+              </p>
             </div>
 
             <p className="text-gray-600 leading-relaxed mb-8">
@@ -185,8 +229,8 @@ export default function ProductDetail() {
             <button
               onClick={() => addToCart(urun, 1)}
               className="w-full bg-accent hover:bg-accent-dark text-white font-bold py-4 px-6
-                         rounded-xl text-lg shadow-lg transition hover:scale-[1.02]
-                         inline-flex items-center justify-center gap-3"
+                          rounded-xl text-lg shadow-lg transition hover:scale-[1.02]
+                          inline-flex items-center justify-center gap-3"
             >
               <IconCart className="w-6 h-6" />
               Sepete Ekle
