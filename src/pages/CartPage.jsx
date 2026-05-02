@@ -2,10 +2,10 @@ import { useMemo } from "react";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
 
-const formatPrice = (n) => new Intl.NumberFormat("tr-TR").format(n);
+const formatPrice = n => new Intl.NumberFormat("tr-TR").format(n);
 
 // --- SVG ICONS (no FontAwesome dependency) ---
-const IconCart = (props) => (
+const IconCart = props => (
   <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
     <path
       d="M5 4h1.5L9 16h8l2-9H7.3"
@@ -24,7 +24,7 @@ const IconCart = (props) => (
   </svg>
 );
 
-const IconArrowRight = (props) => (
+const IconArrowRight = props => (
   <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
     <path
       d="M5 12h12"
@@ -42,7 +42,7 @@ const IconArrowRight = (props) => (
   </svg>
 );
 
-const IconTrash = (props) => (
+const IconTrash = props => (
   <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
     <path
       d="M4 7h16"
@@ -71,7 +71,7 @@ const IconTrash = (props) => (
   </svg>
 );
 
-const IconWhatsApp = (props) => (
+const IconWhatsApp = props => (
   <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" {...props}>
     <path d="M19.11 17.53c-.28-.14-1.65-.81-1.9-.9-.26-.1-.45-.14-.64.14-.19.28-.74.9-.9 1.09-.17.19-.33.21-.61.07-.28-.14-1.2-.44-2.29-1.4-.85-.75-1.42-1.68-1.58-1.96-.17-.28-.02-.43.12-.57.12-.12.28-.33.42-.5.14-.17.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49l-.55-.01c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.44s1.02 2.84 1.16 3.03c.14.19 2.01 3.06 4.87 4.29.68.29 1.21.47 1.62.6.68.22 1.3.19 1.79.12.55-.08 1.65-.67 1.88-1.32.23-.65.23-1.21.16-1.32-.07-.12-.26-.19-.54-.33z" />
     <path d="M16 3C9.37 3 4 8.37 4 15c0 2.12.55 4.11 1.52 5.84L4 29l8.37-1.49A11.92 11.92 0 0 0 16 27c6.63 0 12-5.37 12-12S22.63 3 16 3zm0 21.74c-1.76 0-3.4-.48-4.83-1.31l-.35-.2-4.96.88.92-4.83-.23-.37A9.7 9.7 0 0 1 6.26 15c0-5.37 4.37-9.74 9.74-9.74s9.74 4.37 9.74 9.74-4.37 9.74-9.74 9.74z" />
@@ -82,20 +82,42 @@ export default function CartPage() {
   const { items, removeFromCart, setQty, clearCart, total } = useCart();
 
   const waMessage = useMemo(() => {
-    if (items.length === 0) return "Merhaba, sepette ürün bulunmuyor.";
+    if (items.length === 0)
+      return "Merhaba, sepette ürün bulunmuyor.";
+    // kargo ve KDV hesapla
+    const shippingCost = 100;
+    const vatRate = 0.20;
+    const vatAmount = Math.round(total * vatRate);
+    const grandTotal = total + shippingCost + vatAmount;
+
     const lines = items.map(
       (it, i) =>
-        `${i + 1}) ${it.brand ? it.brand + " " : ""}${it.title} x${it.qty} - ${formatPrice(
-          it.discounted
-        )} ₺ (adet)`
+        `${i + 1}) ${
+          it.brand ? it.brand + " " : ""
+        }${it.title} x${it.qty} - ${formatPrice(
+          it.discounted,
+        )} ₺ (adet)`,
     );
-    lines.push(`\nToplam: ${formatPrice(total)} ₺`);
-    lines.push("\nTeslimat / adres bilgisi için dönüş yapabilir misiniz?");
+    lines.push(
+      `\nAra Toplam: ${formatPrice(total)} ₺`,
+    );
+    lines.push(`Kargo: ${formatPrice(shippingCost)} ₺`);
+    lines.push(
+      `KDV (%20): ${formatPrice(vatAmount)} ₺`,
+    );
+    lines.push(
+      `Genel Toplam: ${formatPrice(grandTotal)} ₺`,
+    );
+    lines.push(
+      "\nTeslimat / adres bilgisi için dönüş yapabilir misiniz?",
+    );
     return lines.join("\n");
   }, [items, total]);
 
   const sendWhatsAppOrder = () => {
-    const url = `https://wa.me/905070824608?text=${encodeURIComponent(waMessage)}`;
+    const url = `https://wa.me/905070824608?text=${encodeURIComponent(
+      waMessage,
+    )}`;
     window.open(url, "_blank");
   };
 
@@ -103,16 +125,21 @@ export default function CartPage() {
     return (
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">Sepet</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">
+            Sepet
+          </h2>
 
           <div className="max-w-md mx-auto text-center py-20 bg-white rounded-2xl shadow-lg">
             <div className="mx-auto w-16 h-16 rounded-2xl bg-gray-100 flex items-center justify-center mb-6 text-gray-400">
               <IconCart className="w-8 h-8" />
             </div>
 
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Sepetiniz Boş</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              Sepetiniz Boş
+            </h3>
             <p className="text-gray-600 mb-8">
-              Sepetinize henüz ürün eklenmemiş. Hemen alışverişe başlayın!
+              Sepetinize henüz ürün eklenmemiş. Hemen alışverişe
+              başlayın!
             </p>
 
             <Link to="/urunler" className="whatsapp-btn">
@@ -128,11 +155,16 @@ export default function CartPage() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-gray-900 mb-8">Sepet</h2>
+        <h2 className="text-4xl font-bold text-gray-900 mb-8">
+          Sepet
+        </h2>
 
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
-          {items.map((it) => (
-            <div key={it.id} className="border-b border-gray-200 last:border-b-0 p-6">
+          {items.map(it => (
+            <div
+              key={it.id}
+              className="border-b border-gray-200 last:border-b-0 p-6"
+            >
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex gap-4 flex-1">
                   {it.image && (
@@ -149,7 +181,8 @@ export default function CartPage() {
                       {it.title}
                     </div>
                     <div className="text-gray-600">
-                      {formatPrice(it.discounted)} ₺ <small>/ adet</small>
+                      {formatPrice(it.discounted)} ₺{" "}
+                      <small>/ adet</small>
                     </div>
                   </div>
                 </div>
@@ -157,7 +190,9 @@ export default function CartPage() {
                 <div className="flex items-center gap-4">
                   <div className="flex items-center border border-gray-300 rounded-xl overflow-hidden">
                     <button
-                      onClick={() => setQty(it.id, Math.max(1, it.qty - 1))}
+                      onClick={() =>
+                        setQty(it.id, Math.max(1, it.qty - 1))
+                      }
                       className="px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-gray-200 transition-colors"
                       aria-label="Azalt"
                       type="button"
@@ -169,11 +204,15 @@ export default function CartPage() {
                       min="1"
                       max={it.stock}
                       value={it.qty}
-                      onChange={(e) => setQty(it.id, Number(e.target.value))}
+                      onChange={e =>
+                        setQty(it.id, Number(e.target.value))
+                      }
                       className="w-16 text-center border-x border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
                     />
                     <button
-                      onClick={() => setQty(it.id, Math.min(it.stock, it.qty + 1))}
+                      onClick={() =>
+                        setQty(it.id, Math.min(it.stock, it.qty + 1))
+                      }
                       className="px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-gray-200 transition-colors"
                       aria-label="Arttır"
                       type="button"
@@ -203,8 +242,12 @@ export default function CartPage() {
 
         <div className="bg-white rounded-2xl shadow-lg p-6">
           <div className="flex justify-between items-center mb-6 pb-6 border-b border-gray-200">
-            <span className="text-xl font-semibold text-gray-700">Ara Toplam</span>
-            <strong className="text-3xl font-bold text-gray-900">{formatPrice(total)} ₺</strong>
+            <span className="text-xl font-semibold text-gray-700">
+              Ara Toplam
+            </span>
+            <strong className="text-3xl font-bold text-gray-900">
+              {formatPrice(total)} ₺
+            </strong>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -217,14 +260,19 @@ export default function CartPage() {
               Sepeti Temizle
             </button>
 
-            <button onClick={sendWhatsAppOrder} className="flex-1 whatsapp-btn" type="button">
+            <button
+              onClick={sendWhatsAppOrder}
+              className="flex-1 whatsapp-btn"
+              type="button"
+            >
               <IconWhatsApp className="w-5 h-5" />
               WhatsApp'tan Sipariş Gönder
             </button>
           </div>
 
           <p className="text-sm text-gray-500 text-center">
-            Sipariş mesajınız WhatsApp'ta otomatik hazırlanır; gönderip onaylayın. 🎯
+            Sipariş mesajınız WhatsApp'ta otomatik hazırlanır ve ara
+            toplam, 100 TL kargo ile %20 KDV eklenerek gönderilir. 🎯
           </p>
         </div>
       </div>
