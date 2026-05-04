@@ -1,0 +1,28 @@
+name: Generate site files
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'ozkanwood/public/urunler.json'
+      - 'ozkanwood/scripts/generate_site_files.py'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run generator script
+        env:          
+          BASE_URL: ${{ secrets.SITE_BASE_URL || 'https://ozkanwood.netlify.app' }}
+        run: python ozkanwood/scripts/generate_site_files.py
+      - name: Commit and push updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: regenerate sitemap.xml and llms.txt'
+          file_pattern: |
+            ozkanwood/public/sitemap.xml
+            ozkanwood/public/llms.txt
