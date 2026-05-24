@@ -1,6 +1,155 @@
 {
-  "updatedAt": "2026-05-23T06:12:37.377670",
+  "updatedAt": "2026-05-24T06:36:50.194100",
   "products": [
+    {
+      "id": "714f398822e80b320534f7f3905872d5",
+      "title": "TAS BOYAMA FİGÜRÜ",
+      "brand": "Yc Dekor",
+      "description": "- Türkiye'de üretilmiştir.; - Tehlikeli madde içermez, güvenle kullanılabilir.; - Tas boyama figürü, yaratıcılığınızı konuşturmak için ideal bir araçtır.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/13/d15239b3-2562-3896-97a7-8c3276586d05/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260523/13/a342ca27-2d09-3323-9484-197a5ef333cc/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260523/13/58e12d69-6992-36b8-9c6a-7bd343b0a355/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/tas-boyama-fi-gu-ru-p-1149199084?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "a8b6ff76569b1dd99c93b2b43771dbb4",
+      "title": "ZEBRA HAYVAN FİGÜRÜ BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Türkiye'de üretilmiş olup, yerel üretim desteklenir.; - Çocukların güvenliği düşünülerek tasarlanmıştır; tehlikeli madde içermez.; - Zebra hayvan figürü ile birlikte gelen boyama seti, yaratıcılığı teşvik eder.; - Çocukların el-göz koordinasyonunu ve ince motor becerilerini geliştirmeye yardımcı olur.; - Renkleri karıştırarak farklı tonlar oluşturma imkanı sunar, sanatsal yeteneklerini keşfetmelerini sağlar.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260523/12/21ec7121-7ae8-3de7-bbe5-d4f026583ae3/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/12/9094e4a1-9ccc-36d9-937e-6ea7b05d856e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260523/12/a801b37b-357e-3291-b23f-6ff7126787a0/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260523/12/e4877b2d-2c62-3ab8-ae13-3488a73c570d/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/zebra-hayvan-fi-gu-ru-boyama-seti-p-1149177524?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "9e15bca2eded24b5042ab8f62394e338",
+      "title": "NEŞELİ FARE BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Türkiye'de üretilmiştir, yerel üretimle desteklenmiştir.; - Çocuklar için güvenli bir boyama deneyimi sunar, tehlikeli madde içermez.; - NEŞELİ FARE BOYAMA SETİ ile yaratıcılık ve eğlence bir arada!",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260523/12/bd942d60-eb6d-3132-a6be-ab7c9df3342c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260523/12/fc34d3f3-d45c-36d9-ae04-727260c0939e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260523/12/a6cae63b-7f46-3865-a24b-deaab2581716/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/12/e26c9476-5dc8-3933-9056-78f1b1dc91c7/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/nes-eli-fare-boyama-seti-p-1149177085?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "205f49ca31a68e2e81fbaf5365b5519d",
+      "title": "KOALA HAYVAN FİGÜRÜ BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Türk malı, yerli üretim bir üründür.; - Tehlikeli madde içermez, çocuklarınız için güvenlidir.; - Koala hayvan figürü boyama seti ile eğlenceli vakit geçirin.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260523/12/9e128556-144a-3e28-b7ff-4c863f19a645/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260523/12/f512143e-2997-378c-81fd-972f5c0516e1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260523/12/c6d517c6-3999-3707-864d-dcc052eb1715/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260523/12/e15af180-837d-3ff1-8f09-acec90f8ad00/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/koala-hayvan-fi-gu-ru-boyama-seti-p-1149176774?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "ee4cb05ed0fbd94ae6ce9ee0be90df1d",
+      "title": "ÇİZGİ FİLM KARAKTERİ BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Türkiye'de üretilmiştir, yerli üretimdir.; - Tehlikeli madde içermez, güvenle kullanılabilir.; - Çizgi film karakterlerini boyayarak eğlenceli vakit geçirme imkanı sunar.; - Çocukların yaratıcılıklarını geliştirmelerine yardımcı olur.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260523/12/2762dd38-e5d8-3a77-abc1-39ae0c5a35e1/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260523/12/d7d0f1a4-dd0b-396a-92d2-847f4224eed0/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/12/d0f363b0-d485-3bf4-82dd-1e749039c146/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/c-i-zgi-fi-lm-karakteri-boyama-seti-p-1149176380?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "952160ac80429a27a39f2d8312902b1d",
+      "title": "KADIN HEYKEL BÜST BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Kendi yaratıcılığınızı keşfedin ve sanatsal yeteneklerinizi geliştirin.; - Türkiye'de üretilmiş, yerel kaynaklı bir ürün.; - Kullanımı güvenli, sağlığa zararlı maddeler içermez.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260523/12/a0000208-29c4-33e7-a03d-0a8708c1520c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260523/12/d9f0d7c6-cebd-3559-b29d-ef4b21f15c14/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260523/12/f0609419-5e82-372a-bedc-0d83b5cb634a/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260523/12/c084d01f-72a3-3bbf-96ba-d21de2c454e8/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/kadin-heykel-bu-st-boyama-seti-p-1149176251?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "616c4893926af090fe9e0cae239a447a",
+      "title": "SEVİMLİ AYICIK BOYAMA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Sevimli ayıcık tasarımıyla çocukların ilgisini çeken boyama seti.; - Türkiye'de üretilmiştir, yerel üretim desteklenmektedir.; - Çocukların güvenliği düşünülerek tasarlanmış, tehlikeli madde içermez.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260523/12/599adc7e-b13d-34b7-a6e2-d98354d8574c/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260523/12/30535290-72c2-373e-97c3-04f3c762af46/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260523/12/95af868d-5952-3050-b69c-0ecf18b25ba0/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/sevi-mli-ayicik-boyama-seti-p-1149176113?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "a4a7b6c67a785f0022137d0d87240018",
+      "title": "OYUNCAK AYICIK BOYA SETİ",
+      "brand": "Yc Dekor",
+      "description": "- Yaratıcılığı teşvik eden eğlenceli bir aktivite: Kendi oyuncak ayıcığını boyayarak kişisel bir dokunuş katın.; - Türkiye'de üretilmiştir: Yerel üretim, kalite ve güvenilirliği bir arada sunar.; - Çocuklar için güvenli bir oyuncak: Tehlikeli madde içermez ve güvenle kullanılabilir.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260523/12/86bc5806-0b44-3b5d-ad1a-9e294e2788af/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260523/12/586766f9-1afd-385c-ba97-6471b3f630bc/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260523/12/1da6f86f-cb27-320a-a194-f4020a4efbf8/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260523/12/c02feefd-1f69-38d1-859f-74061a89e6ea/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/oyuncak-ayicik-boya-seti-p-1149175628?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "d1e0ee48f36dcd56075fe9b8513c88b3",
+      "title": "ÇİZGİ FİLM KARAKTERİ 2'Lİ SET",
+      "brand": "Yc Dekor",
+      "description": "- Sevilen çizgi film karakterleriyle çocukların hayal gücünü geliştiren 2'li set.; - Türkiye'de üretilmiş, yerli malı bir oyuncak seçeneği.; - Çocukların güvenliği düşünülerek tasarlanmış, tehlikeli madde içermeyen yapısıyla gönül rahatlığıyla kullanılabilir.;",
+      "price": 199.9,
+      "salePrice": 199.9,
+      "quantity": 100,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260523/12/37d3dfa9-b0b8-3836-a4d9-e5b32e2c3778/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260523/12/1f4c80d9-69f2-3bed-a2b3-b284ae5d6824/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260523/12/d424de47-0bbf-3986-a2ba-0ee12a57ef93/1_org_zoom.jpg"
+      ],
+      "category": "Boyama Seti",
+      "url": "https://www.trendyol.com/yc-dekor/c-i-zgi-fi-lm-karakteri-2-li-set-p-1149175449?merchantId=254250&filterOverPriceListings=false"
+    },
     {
       "id": "22bc35e87dca3df3ba2bb413057e0fb2",
       "title": "Stich 2'li Obje Boya Seti",
@@ -25,7 +174,7 @@
       "description": "- Türkiye'de üretilmiştir, yerel üretimi destekler.; - Tehlikeli madde içermez, güvenle kullanabilirsiniz.;",
       "price": 199.9,
       "salePrice": 199.9,
-      "quantity": 42,
+      "quantity": 41,
       "images": [
         "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260421/14/16e8a752-cf60-3109-b4c0-f500baf53a92/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260421/14/99233f66-63e4-3029-be95-ef2816af49f4/1_org_zoom.jpg",
@@ -311,7 +460,7 @@
       "description": "- Geniş iç hacmiyle 55 cm x 49 cm boyutlarında, mutfakta kaşık, kepçe, spatula gibi mutfak gereçlerinizi düzenli bir şekilde saklamanızı sağlar.; - Çekmece içi düzenleyici olarak tasarlanmıştır, bu sayede mutfak çekmecelerinizdeki dağınıklığı ortadan kaldırır ve daha düzenli bir görünüm sunar.; - Dayanıklı malzemeden üretilmiştir, uzun ömürlü kullanım vaat eder.; - Kolay temizlenebilir yapısı sayesinde hijyenik bir mutfak ortamı sağlar.; - Pratik ve fonksiyonel tasarımı ile mutfakta zaman kazandırır, aradığınızı kolayca bulmanızı sağlar.;",
       "price": 927.64,
       "salePrice": 927.64,
-      "quantity": 100,
+      "quantity": 99,
       "images": [
         "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260415/11/ca35006d-1d22-319b-a8ad-bab530bb4c35/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260415/11/35c21f2f-2a6b-3d5a-a3ab-f086244a71ee/1_org_zoom.jpg",
@@ -632,7 +781,7 @@
       "description": "- Modern tasarımıyla evinizin dekorasyonuna şıklık katan ahşap duvar saati, siyah renk seçeneğiyle her ortama uyum sağlar.; - Sessiz akar mekanizması sayesinde rahatsız edici tik tak seslerinden arınmış bir ortam sunar.; - Yuvarlak şekli ve 48 x 48 cm boyutları ile duvarınızda dikkat çekici bir görünüm oluşturur.; - Pilli çalışma tipi, kolay ve pratik kullanım imkanı sağlar.; - Türkiye'de üretilmiş olup, kaliteli malzemelerle özenle hazırlanmıştır.; - Uzun ömürlü kullanım için ürünle birlikte gelen bakım talimatlarına dikkat edilmesi önerilir.",
       "price": 499.9,
       "salePrice": 499.9,
-      "quantity": 1000,
+      "quantity": 999,
       "images": [
         "https://cdn.dsmcdn.com/ty1821/prod/QC_PREP/20260207/14/3ee4ae87-d02b-307b-b1d6-6b2578067d0d/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1821/prod/QC_PREP/20260207/14/88e565cb-d739-3aac-9bf6-49c44d7031e3/1_org_zoom.jpg",
@@ -1066,7 +1215,7 @@
       "description": "- Klasik ve şık bir görünüm için ideal, kahverengi tonlarında tasarlanmış ahşap kulp.; - 160 mm delik aralığı ile uyumlu, kolay montaj imkanı sunar.; - Kimyasal temizleyicilerden kaçınılması gereken, nemli bez ile silinerek temizlenebilir yüzey.; - Özkan Wood tarafından üretilen kaliteli işçilikle, uzun ömürlü kullanım vaat eder.; Yetkili temsilci tarafından ithal edilerek, güvenilir kaynaklardan temin edilmiş bir üründür.",
       "price": 79.99,
       "salePrice": 79.99,
-      "quantity": 878,
+      "quantity": 870,
       "images": [
         "https://cdn.dsmcdn.com/ty1776/prod/QC_PREP/20251020/18/8c532a0e-d91c-3697-99dc-5976967b4832/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1776/prod/QC_PREP/20251020/18/c69ec79b-781b-3072-9254-d06e1d77cc17/1_org_zoom.jpg",
@@ -1167,7 +1316,7 @@
       "description": "- Ahşap kulplar, mutfak mobilyalarınızın şıklığını ve doğallığını artırır.; - \"Menşei\" olarak Türkiye'de üretilmiş olup, yerli üretimden gurur duymayı sağlar.; - Kimyasal temizlik maddelerine karşı dayanıklıdır; sadece nemli bir bez ile kolayca temizlenebilir.; - Delikler arası mesafe bulunmadığı için montaj sırasında ekstra delik açma gerektirmez.; - Kahverengi rengiyle sıcak ve doğal bir görünüm sunar; her türlü dekorasyona uyum sağlar.; - Web Color olarak belirtilen kahverengi tonu, mobilyalarınıza zarif bir dokunuş katar.; - Düğme tipi kulplar, kolay açılıp kapanma imkanı sunarak kullanım kolaylığı sağlar.; - Özkan Wood tarafından üretilmiş olup kalite ve güvenilirlik garantisi verir.; - Yetkili temsilci tarafından ithal edilmiş ve ifa hizmeti sağlanmış olup müşteri memnuniyetine önem verir.",
       "price": 64.99,
       "salePrice": 64.99,
-      "quantity": 7548,
+      "quantity": 7540,
       "images": [
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/c3fb1da0-d6fa-39d8-a8d6-74fdef4dcce3/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1778/prod/QC_PREP/20251020/17/95f990b2-db2c-3f96-b1f8-cf47ef4e186b/1_org_zoom.jpg",
@@ -4022,7 +4171,7 @@
       "description": "- Country tarzı mutfak mobilyalarınızda şıklığı ve dayanıklılığı bir arada sunan ahşap kulp.; - Tek delikli tasarımı ile kolay montaj imkanı sağlar, ekstra aksesuar ihtiyacını ortadan kaldırır.; - Hava geçirgen yapısı sayesinde zamanla kararma veya paslanma gibi sorunlara karşı dirençlidir.; - Doğal ahşap rengiyle mevcut dekorasyonunuza sıcaklık ve doğal bir dokunuş katar.; - Web renk seçeneği olarak kahverengi tonuyla her türlü iç mekan tasarımına uyum sağlar.; DOĞAL AHŞAP ÜRÜNLER DE TON FARKI OLABİLİR!!!",
       "price": 44.5,
       "salePrice": 44.5,
-      "quantity": 5585,
+      "quantity": 5552,
       "images": [
         "https://cdn.dsmcdn.com/ty1767/prod/QC_ENRICHMENT/20251008/23/3c3e1f8f-d09c-3447-9174-872a87907a56/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1768/prod/QC_ENRICHMENT/20251008/23/fc9e34cc-3091-338a-b80e-ba45b03f3487/1_org_zoom.jpg",
