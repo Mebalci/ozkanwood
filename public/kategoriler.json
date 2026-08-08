@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T04:54:09.235060",
+  "updatedAt": "2026-08-08T04:10:05.552169",
   "categories": [
     {
       "id": 1,
@@ -8,86 +8,91 @@
     },
     {
       "id": 2,
-      "name": "Askılık",
+      "name": "Akülü Vidalama",
       "parentId": null
     },
     {
       "id": 3,
-      "name": "Banyo Düzenleyici",
+      "name": "Askılık",
       "parentId": null
     },
     {
       "id": 4,
-      "name": "Boyama Seti",
+      "name": "Banyo Düzenleyici",
       "parentId": null
     },
     {
       "id": 5,
-      "name": "Dolap İçi Düzenleyici",
+      "name": "Boyama Seti",
       "parentId": null
     },
     {
       "id": 6,
-      "name": "Duvar Dekorasyon Ürünü",
+      "name": "Dolap İçi Düzenleyici",
       "parentId": null
     },
     {
       "id": 7,
-      "name": "Duvar Saati",
+      "name": "Duvar Dekorasyon Ürünü",
       "parentId": null
     },
     {
       "id": 8,
-      "name": "Eğitici Oyuncak",
+      "name": "Duvar Saati",
       "parentId": null
     },
     {
       "id": 9,
-      "name": "Kaşıklık",
+      "name": "Eğitici Oyuncak",
       "parentId": null
     },
     {
       "id": 10,
-      "name": "Makyaj & Takı Organizeri",
+      "name": "Kaşıklık",
       "parentId": null
     },
     {
       "id": 11,
-      "name": "Mobilya Hırdavatı",
+      "name": "Makyaj & Takı Organizeri",
       "parentId": null
     },
     {
       "id": 12,
-      "name": "Mobilya Kulpu",
+      "name": "Mobilya Hırdavatı",
       "parentId": null
     },
     {
       "id": 13,
-      "name": "Mousepad",
+      "name": "Mobilya Kulpu",
       "parentId": null
     },
     {
       "id": 14,
-      "name": "Notebook Çantası",
+      "name": "Mousepad",
       "parentId": null
     },
     {
       "id": 15,
-      "name": "Tuvalet Kağıtlığı",
+      "name": "Notebook Çantası",
       "parentId": null
     },
     {
       "id": 16,
-      "name": "Yan Sehpa",
+      "name": "Tuvalet Kağıtlığı",
       "parentId": null
     },
     {
       "id": 17,
-      "name": "Zigon",
+      "name": "Yan Sehpa",
       "parentId": null
     },
     {
       "id": 18,
+      "name": "Zigon",
+      "parentId": null
+    },
+    {
+      "id": 19,
       "name": "Çamaşır Sepeti",
       "parentId": null
     }
