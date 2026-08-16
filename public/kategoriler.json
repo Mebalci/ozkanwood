@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T03:37:34.401768",
+  "updatedAt": "2026-08-16T03:47:19.031340",
   "categories": [
     {
       "id": 1,
@@ -78,21 +78,26 @@
     },
     {
       "id": 16,
-      "name": "Tuvalet Kağıtlığı",
+      "name": "Takı ve Aksesuar Dolapları",
       "parentId": null
     },
     {
       "id": 17,
-      "name": "Yan Sehpa",
+      "name": "Tuvalet Kağıtlığı",
       "parentId": null
     },
     {
       "id": 18,
-      "name": "Zigon",
+      "name": "Yan Sehpa",
       "parentId": null
     },
     {
       "id": 19,
+      "name": "Zigon",
+      "parentId": null
+    },
+    {
+      "id": 20,
       "name": "Çamaşır Sepeti",
       "parentId": null
     }
