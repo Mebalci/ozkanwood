@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T09:21:31.784370",
+  "updatedAt": "2026-10-01T09:48:19.813064",
   "categories": [
     {
       "id": 1,
@@ -88,16 +88,21 @@
     },
     {
       "id": 18,
-      "name": "Yan Sehpa",
+      "name": "Vestiyer Askısı",
       "parentId": null
     },
     {
       "id": 19,
-      "name": "Zigon",
+      "name": "Yan Sehpa",
       "parentId": null
     },
     {
       "id": 20,
+      "name": "Zigon",
+      "parentId": null
+    },
+    {
+      "id": 21,
       "name": "Çamaşır Sepeti",
       "parentId": null
     }
