@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T08:33:35.537368",
+  "updatedAt": "2026-10-27T08:40:39.864753",
   "products": [
     {
       "id": "618dbe080d6d30ae3123a4cd57f23474",
@@ -8,7 +8,7 @@
       "description": "Ürün tek adet fiyatıdır.; Ürün Cam malzemeden imal edilmiştir.; Ürünün Model Adı oskarkristal dir.; Ürünün rengi Altın dir.; Ürünün Ölçüsü Tek Delikli dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
       "price": 207.36,
       "salePrice": 207.36,
-      "quantity": 10000,
+      "quantity": 9999,
       "images": [
         "https://cdn.dsmcdn.com/ty1971/prod/QC_PREP/20261009/14/5999c0e5-cf6c-35dc-a9af-1446c7ea746a/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1972/prod/QC_PREP/20261009/14/c5b96d0b-b3fd-3fb1-81db-212ee02c94cd/1_org_zoom.jpg",
@@ -1353,7 +1353,7 @@
       "description": "Ürün tek adet fiyatıdır.; Ürün Plastik malzemeden imal edilmiştir.; Ürünün Model Adı defne-aski dir.; Ürünün rengi Siyah dir.; Ürünün Ölçüsü Askı dir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
       "price": 118.8,
       "salePrice": 118.8,
-      "quantity": 10000,
+      "quantity": 9999,
       "images": [
         "https://cdn.dsmcdn.com/ty1818/prod/QC_PREP/20260130/17/dab46be1-6053-399f-80ef-fc4a11a7e625/1_org_zoom.jpg"
       ],
@@ -1395,7 +1395,7 @@
       "description": "Ürün tek adet fiyatıdır.; Ürün malzemeden imal edilmiştir.; Ürünün Model Adı dir.; Ürünün rengi dir.; Ürünün Ölçüsü dir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
       "price": 83.16,
       "salePrice": 83.16,
-      "quantity": 9985,
+      "quantity": 9984,
       "images": [
         "https://cdn.dsmcdn.com/ty1818/prod/QC_PREP/20260203/11/2eb74b8b-a32b-3604-96b1-a79813871ed4/1_org_zoom.jpg"
       ],
@@ -5126,20 +5126,6 @@
       "url": "https://www.trendyol.com/yc-dekor/misket-siyah-du-g-me-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-22-mm-c-ap-p-1206076565?merchantId=254250&filterOverPriceListings=false"
     },
     {
-      "id": "0c9f9ef213432a27191a9f0e09009eee",
-      "title": "Hilal Krom Düğme Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
-      "brand": "Yc Dekor",
-      "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı hilal dir.; Ürünün rengi Krom dir.; Ürünün Ölçüsü Tek Delikli dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
-      "price": 95.9,
-      "salePrice": 95.9,
-      "quantity": 9974,
-      "images": [
-        "https://cdn.dsmcdn.com/ty1587/prod/QC/20241018/00/f76ad4f3-e0da-3e00-b3f8-dbb0c0ac2999/1_org_zoom.jpg"
-      ],
-      "category": "Mobilya Kulpu",
-      "url": "https://www.trendyol.com/yc-dekor/hilal-krom-du-g-me-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076561?merchantId=254250&filterOverPriceListings=false"
-    },
-    {
       "id": "e8e2382a723002569818f1ebc15fec20",
       "title": "Hüma İnox 128 Mm Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
       "brand": "Yc Dekor",
@@ -5152,6 +5138,20 @@
       ],
       "category": "Mobilya Kulpu",
       "url": "https://www.trendyol.com/yc-dekor/hu-ma-i-nox-128-mm-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076564?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "0c9f9ef213432a27191a9f0e09009eee",
+      "title": "Hilal Krom Düğme Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
+      "brand": "Yc Dekor",
+      "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı hilal dir.; Ürünün rengi Krom dir.; Ürünün Ölçüsü Tek Delikli dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
+      "price": 95.9,
+      "salePrice": 95.9,
+      "quantity": 9974,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1587/prod/QC/20241018/00/f76ad4f3-e0da-3e00-b3f8-dbb0c0ac2999/1_org_zoom.jpg"
+      ],
+      "category": "Mobilya Kulpu",
+      "url": "https://www.trendyol.com/yc-dekor/hilal-krom-du-g-me-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076561?merchantId=254250&filterOverPriceListings=false"
     },
     {
       "id": "558673f389014b184d74e18a79fd27e9",
@@ -5984,7 +5984,7 @@
       "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı midye dir.; Ürünün rengi Siyah dir.; Ürünün Ölçüsü 160 mm dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
       "price": 207.36,
       "salePrice": 207.36,
-      "quantity": 10000,
+      "quantity": 9997,
       "images": [
         "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260930/10/4a959b3a-27ea-35e9-83b2-ca71b1417d5b/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1965/prod/QC_ENRICHMENT/20260930/10/11a144ce-c8b7-3890-868f-206acedef650/1_org_zoom.jpg",
@@ -6479,20 +6479,6 @@
       "url": "https://www.trendyol.com/yc-dekor/go-mme-siyah-32-mm-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076442?merchantId=254250&filterOverPriceListings=false"
     },
     {
-      "id": "4d38a986191f2cbd1704a8d9ba8730d2",
-      "title": "Firuze Rose 160 Mm Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
-      "brand": "Yc Dekor",
-      "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı firuze dir.; Ürünün rengi Rose dir.; Ürünün Ölçüsü 160 mm dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
-      "price": 349.92,
-      "salePrice": 349.92,
-      "quantity": 10000,
-      "images": [
-        "https://cdn.dsmcdn.com/ty1966/prod/QC_PREP/20260928/04/859e356e-57ee-3bcf-87ee-747d5d3a195c/1_org_zoom.jpg"
-      ],
-      "category": "Mobilya Kulpu",
-      "url": "https://www.trendyol.com/yc-dekor/firuze-rose-160-mm-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076441?merchantId=254250&filterOverPriceListings=false"
-    },
-    {
       "id": "7516768b1558123c77420df8092e6cc7",
       "title": "Triangle Siyah 32 Mm Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
       "brand": "Yc Dekor",
@@ -6505,6 +6491,20 @@
       ],
       "category": "Mobilya Kulpu",
       "url": "https://www.trendyol.com/yc-dekor/triangle-siyah-32-mm-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076438?merchantId=254250&filterOverPriceListings=false"
+    },
+    {
+      "id": "4d38a986191f2cbd1704a8d9ba8730d2",
+      "title": "Firuze Rose 160 Mm Kulp Lüks Country Mutfak Mobilya Dolap Çekmece Kulpu",
+      "brand": "Yc Dekor",
+      "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı firuze dir.; Ürünün rengi Rose dir.; Ürünün Ölçüsü 160 mm dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
+      "price": 349.92,
+      "salePrice": 349.92,
+      "quantity": 10000,
+      "images": [
+        "https://cdn.dsmcdn.com/ty1966/prod/QC_PREP/20260928/04/859e356e-57ee-3bcf-87ee-747d5d3a195c/1_org_zoom.jpg"
+      ],
+      "category": "Mobilya Kulpu",
+      "url": "https://www.trendyol.com/yc-dekor/firuze-rose-160-mm-kulp-lu-ks-country-mutfak-mobilya-dolap-c-ekmece-kulpu-p-1206076441?merchantId=254250&filterOverPriceListings=false"
     },
     {
       "id": "294d3f27595bcbd259350ac5d216d0aa",
@@ -8208,7 +8208,7 @@
       "description": "Ürün tek adet fiyatıdır.; Ürün Metal malzemeden imal edilmiştir.; Ürünün Model Adı almkopru dir.; Ürünün rengi İnox dir.; Ürünün Ölçüsü 160 mm dir.; Ürün ölçüleri çift vida girişli ürünlerde ürünün iki vida deliği arasındaki mesafeyi temsil etmektedir.; Ürün temizliğinde kimyasal temizleyiciler (deterjan, tuz ruhu, çamaşır suyu vb.; ) ürünün kaplamasına zarar verdiğinden sadece nemli bez ile temizlenmesi tavsiye edilir.; Mevcut kulpunuzun ölçüsünü iki vida deliği arasındaki mesafeyi merkezden merkeze metrenin 0 noktasından başlayarak doğru ölçüm yapılması gerekmektedir.; Kulp Ölçüleri standart 32 mm ve katlarıdır örneğin ; 32, 64, 96 , 128, 160, 192, 224, 256 mm vb.; dir.; Ürün Montaj vidaları ürün beraberinde gönderilmektedir.",
       "price": 200.88,
       "salePrice": 200.88,
-      "quantity": 10000,
+      "quantity": 9992,
       "images": [
         "https://cdn.dsmcdn.com/ty1972/prod/QC_ENRICHMENT/20261008/14/4913ba9c-4db1-3dbc-ab02-fa87674a79b8/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1973/prod/QC_ENRICHMENT/20261008/14/2e3e082c-65f5-325e-984a-3846f9e808a0/1_org_zoom.jpg",
@@ -9077,7 +9077,7 @@
       "description": "- Çekmece içi düzenleme için ideal boyutlara sahip, 86 x 49 cm ölçülerinde geniş bir alan sunar.; - Gıda ile temas için güvenli, elde yıkanarak kolayca temizlenebilir materyalden üretilmiştir.; - Dayanıklı plastik malzemeden yapılmış olup, uzun ömürlü kullanım sağlar.; - Türkiye'de üretilmiştir, yerli üretim kalitesini mutfağınıza taşır.;",
       "price": 1199,
       "salePrice": 1199,
-      "quantity": 94,
+      "quantity": 93,
       "images": [
         "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260415/12/a2b9bf96-6e9b-34ee-8a97-8a21a7172a34/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260415/12/7807df62-fc29-334d-8ae5-9f1f08c95e55/1_org_zoom.jpg",
@@ -11361,7 +11361,7 @@
       "description": "Lüks ve şık tasarımıyla dikkat çeken 10 adet ahşap kulp, mutfak dolaplarınıza modern bir dokunuş katıyor; Country tarzı detaylarıyla evinizin dekorasyonuna uyum sağlayan bu kulplar, dayanıklılığı ve estetiği bir arada sunuyor; Mobilya çekmecelerinizi kolayca açıp kapamanızı sağlayan düğme tipi tasarımı, günlük kullanım için idealdir; Her bir kulp, ahşabın doğal dokusunu yansıtan zarif bir görünümle mutfak dekorasyonunuza sıcak bir hava katıyor;",
       "price": 449.9,
       "salePrice": 449.9,
-      "quantity": 994,
+      "quantity": 992,
       "images": [
         "https://cdn.dsmcdn.com/ty1126/product/media/images/prod/SPM/PIM/20240109/18/74252c4d-9d3c-3cea-b2ba-e1c5915677f4/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1125/product/media/images/prod/SPM/PIM/20240109/18/99c9ed8e-adec-3d6c-83ea-bcda19a4cb8d/1_org_zoom.jpg",
@@ -12993,7 +12993,7 @@
       "description": "- Country tarzı mutfak mobilyalarınızda şıklığı ve dayanıklılığı bir arada sunan ahşap kulp.; - Tek delikli tasarımı ile kolay montaj imkanı sağlar, ekstra aksesuar ihtiyacını ortadan kaldırır.; - Hava geçirgen yapısı sayesinde zamanla kararma veya paslanma gibi sorunlara karşı dirençlidir.; - Doğal ahşap rengiyle mevcut dekorasyonunuza sıcaklık ve doğal bir dokunuş katar.; - Web renk seçeneği olarak kahverengi tonuyla her türlü iç mekan tasarımına uyum sağlar.; DOĞAL AHŞAP ÜRÜNLER DE TON FARKI OLABİLİR!!!",
       "price": 44.5,
       "salePrice": 44.5,
-      "quantity": 464,
+      "quantity": 430,
       "images": [
         "https://cdn.dsmcdn.com/ty1767/prod/QC_ENRICHMENT/20251008/23/3c3e1f8f-d09c-3447-9174-872a87907a56/1_org_zoom.jpg",
         "https://cdn.dsmcdn.com/ty1768/prod/QC_ENRICHMENT/20251008/23/fc9e34cc-3091-338a-b80e-ba45b03f3487/1_org_zoom.jpg",
