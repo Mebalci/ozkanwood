@@ -1,4 +1,160 @@
 {
-  "updatedAt": "2026-11-15T10:26:11.429814",
-  "categories": []
+  "updatedAt": "2026-11-16T10:41:22.510865",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ahşap Oyuncak",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "Akülü Vidalama",
+      "parentId": null
+    },
+    {
+      "id": 3,
+      "name": "Askılık",
+      "parentId": null
+    },
+    {
+      "id": 4,
+      "name": "Banyo Düzenleyici",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "name": "Boyama Seti",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "name": "Dolap İçi Düzenleyici",
+      "parentId": null
+    },
+    {
+      "id": 7,
+      "name": "Duvar Dekorasyon Ürünü",
+      "parentId": null
+    },
+    {
+      "id": 8,
+      "name": "Duvar Saati",
+      "parentId": null
+    },
+    {
+      "id": 9,
+      "name": "El Zımparası",
+      "parentId": null
+    },
+    {
+      "id": 10,
+      "name": "Eğitici Oyuncak",
+      "parentId": null
+    },
+    {
+      "id": 11,
+      "name": "Kablo Düzenleyici",
+      "parentId": null
+    },
+    {
+      "id": 12,
+      "name": "Kapı Hırdavatı",
+      "parentId": null
+    },
+    {
+      "id": 13,
+      "name": "Kapı Stoperi",
+      "parentId": null
+    },
+    {
+      "id": 14,
+      "name": "Kaşıklık",
+      "parentId": null
+    },
+    {
+      "id": 15,
+      "name": "Makyaj & Takı Organizeri",
+      "parentId": null
+    },
+    {
+      "id": 16,
+      "name": "Matkap Aksesuarları",
+      "parentId": null
+    },
+    {
+      "id": 17,
+      "name": "Matkap Ucu",
+      "parentId": null
+    },
+    {
+      "id": 18,
+      "name": "Mobilya Ayakları",
+      "parentId": null
+    },
+    {
+      "id": 19,
+      "name": "Mobilya Hırdavatı",
+      "parentId": null
+    },
+    {
+      "id": 20,
+      "name": "Mobilya Kulpu",
+      "parentId": null
+    },
+    {
+      "id": 21,
+      "name": "Mousepad",
+      "parentId": null
+    },
+    {
+      "id": 22,
+      "name": "Notebook Çantası",
+      "parentId": null
+    },
+    {
+      "id": 23,
+      "name": "Takı ve Aksesuar Dolapları",
+      "parentId": null
+    },
+    {
+      "id": 24,
+      "name": "Tuvalet Kağıtlığı",
+      "parentId": null
+    },
+    {
+      "id": 25,
+      "name": "Vestiyer Askısı",
+      "parentId": null
+    },
+    {
+      "id": 26,
+      "name": "Vida & Çivi & Dübel",
+      "parentId": null
+    },
+    {
+      "id": 27,
+      "name": "Yan Sehpa",
+      "parentId": null
+    },
+    {
+      "id": 28,
+      "name": "Zigon",
+      "parentId": null
+    },
+    {
+      "id": 29,
+      "name": "Zımpara Ucu",
+      "parentId": null
+    },
+    {
+      "id": 30,
+      "name": "Çamaşır Sepeti",
+      "parentId": null
+    },
+    {
+      "id": 31,
+      "name": "Çöp Kovası",
+      "parentId": null
+    }
+  ]
 }
