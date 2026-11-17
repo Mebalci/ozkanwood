@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:41:22.510865",
+  "updatedAt": "2026-11-17T11:30:21.768964",
   "categories": [
     {
       "id": 1,
@@ -43,117 +43,67 @@
     },
     {
       "id": 9,
-      "name": "El Zımparası",
-      "parentId": null
-    },
-    {
-      "id": 10,
       "name": "Eğitici Oyuncak",
       "parentId": null
     },
     {
-      "id": 11,
-      "name": "Kablo Düzenleyici",
-      "parentId": null
-    },
-    {
-      "id": 12,
-      "name": "Kapı Hırdavatı",
-      "parentId": null
-    },
-    {
-      "id": 13,
-      "name": "Kapı Stoperi",
-      "parentId": null
-    },
-    {
-      "id": 14,
+      "id": 10,
       "name": "Kaşıklık",
       "parentId": null
     },
     {
-      "id": 15,
+      "id": 11,
       "name": "Makyaj & Takı Organizeri",
       "parentId": null
     },
     {
-      "id": 16,
-      "name": "Matkap Aksesuarları",
-      "parentId": null
-    },
-    {
-      "id": 17,
-      "name": "Matkap Ucu",
-      "parentId": null
-    },
-    {
-      "id": 18,
-      "name": "Mobilya Ayakları",
-      "parentId": null
-    },
-    {
-      "id": 19,
+      "id": 12,
       "name": "Mobilya Hırdavatı",
       "parentId": null
     },
     {
-      "id": 20,
+      "id": 13,
       "name": "Mobilya Kulpu",
       "parentId": null
     },
     {
-      "id": 21,
+      "id": 14,
       "name": "Mousepad",
       "parentId": null
     },
     {
-      "id": 22,
+      "id": 15,
       "name": "Notebook Çantası",
       "parentId": null
     },
     {
-      "id": 23,
+      "id": 16,
       "name": "Takı ve Aksesuar Dolapları",
       "parentId": null
     },
     {
-      "id": 24,
+      "id": 17,
       "name": "Tuvalet Kağıtlığı",
       "parentId": null
     },
     {
-      "id": 25,
+      "id": 18,
       "name": "Vestiyer Askısı",
       "parentId": null
     },
     {
-      "id": 26,
-      "name": "Vida & Çivi & Dübel",
-      "parentId": null
-    },
-    {
-      "id": 27,
+      "id": 19,
       "name": "Yan Sehpa",
       "parentId": null
     },
     {
-      "id": 28,
+      "id": 20,
       "name": "Zigon",
       "parentId": null
     },
     {
-      "id": 29,
-      "name": "Zımpara Ucu",
-      "parentId": null
-    },
-    {
-      "id": 30,
+      "id": 21,
       "name": "Çamaşır Sepeti",
-      "parentId": null
-    },
-    {
-      "id": 31,
-      "name": "Çöp Kovası",
       "parentId": null
     }
   ]
